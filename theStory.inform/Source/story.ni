@@ -43,15 +43,21 @@ Before going east when the player is in the Jungle:
 After going Up:
   say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
 
-Deep Jungle is a room. Deep Jungle is above The Jungle. "You see a cave here." 
+Canopy is a room.Canopy is above The Jungle. "You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave" 
 
 
 Chapter 2 - The Cave       
 
 
-The Cave is a room. "It's very dark in here" 
+The Cave is a room. "It's very dark in here. Perhaps i should light a fire" 
 
 The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Deep Jungle. 
+
+Understand "Light Fire" as berning. berning is an action applying to nothing
+
+After berning:
+  say "You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice"
+
 
 Chapter 3 - foo
 
