@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x2105290" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x12044b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x7f5538327a20"/>
-  <item nodeId="node-0x2105290">
+  <activeNode nodeId="node-0x7f2ba0311890"/>
+  <item nodeId="node-0x12044b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -26,15 +26,17 @@ You can also see a prism here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2105d10"/>
-      <child nodeId="node-0x7f55600f7ab0"/>
-      <child nodeId="node-0x7f55600f7f30"/>
-      <child nodeId="node-0x7f55602a1460"/>
-      <child nodeId="node-0x7f5538253720"/>
-      <child nodeId="node-0x7f5538327ba0"/>
+      <child nodeId="node-0x1204630"/>
+      <child nodeId="node-0x18fe2c0"/>
+      <child nodeId="node-0x19cb1c0"/>
+      <child nodeId="node-0x19cb640"/>
+      <child nodeId="node-0x1a1e910"/>
+      <child nodeId="node-0x1a1ef10"/>
+      <child nodeId="node-0x7f2ba8126f30"/>
+      <child nodeId="node-0x7f2ba8205da0"/>
     </children>
   </item>
-  <item nodeId="node-0x2105d10">
+  <item nodeId="node-0x1204630">
     <command xml:space="preserve">eat knife</command>
     <result xml:space="preserve">(first taking the butter knife)
 Yum!
@@ -46,10 +48,10 @@ Yum!
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x2105e90"/>
+      <child nodeId="node-0x12047b0"/>
     </children>
   </item>
-  <item nodeId="node-0x2105e90">
+  <item nodeId="node-0x12047b0">
     <command xml:space="preserve">take prism</command>
     <result xml:space="preserve">Taken.
 
@@ -60,10 +62,10 @@ Yum!
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f71b0"/>
+      <child nodeId="node-0x1204930"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f71b0">
+  <item nodeId="node-0x1204930">
     <command xml:space="preserve">drop prism</command>
     <result xml:space="preserve">Dropped.
 
@@ -74,10 +76,10 @@ Yum!
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f7330"/>
+      <child nodeId="node-0x1204ab0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f7330">
+  <item nodeId="node-0x1204ab0">
     <command xml:space="preserve">drop knife</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -88,10 +90,10 @@ Yum!
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f74b0"/>
+      <child nodeId="node-0x1204c30"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f74b0">
+  <item nodeId="node-0x1204c30">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
 
@@ -109,10 +111,10 @@ A ray of sunlight passing through the trees  elluminates an edelwiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f7630"/>
+      <child nodeId="node-0x1204db0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f7630">
+  <item nodeId="node-0x1204db0">
     <command xml:space="preserve">get edlewiss</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -123,10 +125,10 @@ A ray of sunlight passing through the trees  elluminates an edelwiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f77b0"/>
+      <child nodeId="node-0x1204f30"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f77b0">
+  <item nodeId="node-0x1204f30">
     <command xml:space="preserve">get edelwiss</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -137,10 +139,10 @@ A ray of sunlight passing through the trees  elluminates an edelwiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f7930"/>
+      <child nodeId="node-0x18fe140"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f7930">
+  <item nodeId="node-0x18fe140">
     <command xml:space="preserve">get edelwiss flower</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -151,37 +153,39 @@ A ray of sunlight passing through the trees  elluminates an edelwiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f55600f7ab0">
+  <item nodeId="node-0x18fe2c0">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">butter knife: Your hand is now greasy. Gross!
 prism: Taken.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f7c30"/>
-      <child nodeId="node-0x7f5560102470"/>
+      <child nodeId="node-0x18fe440"/>
+      <child nodeId="node-0x1927d90"/>
+      <child nodeId="node-0x1943340"/>
+      <child nodeId="node-0x1a46dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f7c30">
+  <item nodeId="node-0x18fe440">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open the Cabin Door.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55600f7db0"/>
+      <child nodeId="node-0x18fe5c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55600f7db0">
+  <item nodeId="node-0x18fe5c0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
 
@@ -192,73 +196,78 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
+    <played>YES</played>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55601028f0"/>
+      <child nodeId="node-0x18fe740"/>
+      <child nodeId="node-0x7f2ba8126630"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55601028f0">
+  <item nodeId="node-0x18fe740">
     <command xml:space="preserve">get edelweiss</command>
     <result xml:space="preserve">You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5560102a70"/>
+      <child nodeId="node-0x18fe8c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5560102a70">
+  <item nodeId="node-0x18fe8c0">
     <command xml:space="preserve">up</command>
-    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, being greasy, for surely you would plummet to your death! HAHAHA
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
+    <played>YES</played>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5560102bf0"/>
+      <child nodeId="node-0x18fea40"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5560102bf0">
+  <item nodeId="node-0x18fea40">
     <command xml:space="preserve">enter cave</command>
     <result xml:space="preserve">(first opening the Cave Entrance)
 
 Cave
-It&apos;s very dark in here
+It&apos;s very dark in here. Perhaps i should light a fire
+
+You can see a pickle, a helmet and a statue here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5560102d70"/>
+      <child nodeId="node-0x18febc0"/>
+      <child nodeId="node-0x1927310"/>
+      <child nodeId="node-0x1927a90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5560102d70">
+  <item nodeId="node-0x18febc0">
     <command xml:space="preserve">light fire</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5560102ef0"/>
+      <child nodeId="node-0x18fed40"/>
+      <child nodeId="node-0x7f2ba8205f20"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5560102ef0">
+  <item nodeId="node-0x18fed40">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -269,10 +278,10 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a1160"/>
+      <child nodeId="node-0x18feec0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a1160">
+  <item nodeId="node-0x18feec0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cave
 It&apos;s very dark in here
@@ -284,10 +293,10 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a12e0"/>
+      <child nodeId="node-0x1927190"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a12e0">
+  <item nodeId="node-0x1927190">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Cave
 It&apos;s very dark in here
@@ -299,7 +308,265 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f5560102470">
+  <item nodeId="node-0x7f2ba8205f20">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311110">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311290">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311410">
+    <command xml:space="preserve">show prism to pickle</command>
+    <result xml:space="preserve">The pickle is unimpressed.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311590">
+    <command xml:space="preserve">attach helmet to statue</command>
+    <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311710">
+    <command xml:space="preserve">exit cave</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba0311890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba0311890">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1927310">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Canopy
+You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1927490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1927490">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1927610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1927610">
+    <command xml:space="preserve">cave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1927790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1927790">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1927910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1927910">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1927a90">
+    <command xml:space="preserve">cave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1927c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1927c10">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f2ba8126630">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">edelweiss flower: You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81264b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81264b0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8126330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8126330">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">(first opening the Cave Entrance)
+
+Cave
+It&apos;s very dark in here. Perhaps i should light a fire
+
+You can see a helmet, a statue and a pickle here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81267b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81267b0">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8126930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8126930">
+    <command xml:space="preserve">show prism to pickle</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1927d90">
     <command xml:space="preserve">look prism</command>
     <result xml:space="preserve">Pretty colors
 
@@ -310,10 +577,10 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55601025f0"/>
+      <child nodeId="node-0x1927f10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55601025f0">
+  <item nodeId="node-0x1927f10">
     <command xml:space="preserve">look room</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -324,10 +591,10 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5560102770"/>
+      <child nodeId="node-0x19431c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5560102770">
+  <item nodeId="node-0x19431c0">
     <command xml:space="preserve">look cabin</command>
     <result xml:space="preserve">You see nothing special about the Cabin Door.
 
@@ -338,53 +605,7 @@ It&apos;s very dark in here
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f55600f7f30">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open the Cabin Door.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5560102170"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5560102170">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
-
-The Jungle
-You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east.
-
-A ray of sunlight passing through the trees  elluminates an edelwiss flower.
-
-You can also see an edelwiss here.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f55601022f0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f55601022f0">
-    <command xml:space="preserve">get edelwiss</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7f55602a1460">
+  <item nodeId="node-0x1943340">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
 
@@ -402,12 +623,796 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a15e0"/>
-      <child nodeId="node-0x7f55602a1a60"/>
-      <child nodeId="node-0x7f55602a1ee0"/>
+      <child nodeId="node-0x19434c0"/>
+      <child nodeId="node-0x19b07b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a15e0">
+  <item nodeId="node-0x19434c0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">edelweiss flower: You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943640">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19437c0"/>
+      <child nodeId="node-0x19895f0"/>
+      <child nodeId="node-0x19b04b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19437c0">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">(first opening the Cave Entrance)
+
+Cave
+It&apos;s very dark in here. Perhaps i should light a fire
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943940"/>
+      <child nodeId="node-0x196b880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943940">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943ac0"/>
+      <child nodeId="node-0x196b400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943ac0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943c40">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943dc0">
+    <command xml:space="preserve">put edelewiss in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1943f40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1943f40">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  an edelweiss flower
+  a prism
+  a butter knife
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196b100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196b100">
+    <command xml:space="preserve">put edelweiss flower in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196b280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196b280">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x196b400">
+    <command xml:space="preserve">drop edelewiss</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196b580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196b580">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an edelweiss flower
+  a prism
+  a butter knife
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196b700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196b700">
+    <command xml:space="preserve">drop edelweiss</command>
+    <result xml:space="preserve">You draw the flower from your knapsack; letting your hand drop, you release the flower, which floats towards the soil. If only it still had its roots, i could have done a transplant.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x196b880">
+    <command xml:space="preserve">light ifre</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196ba00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196ba00">
+    <command xml:space="preserve">light fier</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196bb80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196bb80">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196bd00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196bd00">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x196be80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x196be80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an edelweiss flower
+  a prism
+  a butter knife
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989170">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19892f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19892f0">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989470">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19895f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989770">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">(first opening the Cave Entrance)
+
+Cave
+It&apos;s very dark in here. Perhaps i should light a fire
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19898f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19898f0">
+    <command xml:space="preserve">get a</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989a70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989a70">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989bf0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an edelweiss flower
+  a prism
+  a butter knife
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989d70">
+    <command xml:space="preserve">put edelweiss in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1989ef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1989ef0">
+    <command xml:space="preserve">burn edeleweiss</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b01b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b01b0">
+    <command xml:space="preserve">burn edelweiss</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0330">
+    <command xml:space="preserve">put butter in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19b04b0">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0630">
+    <command xml:space="preserve">put knife in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19b07b0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0930">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">(first opening the Cave Entrance)
+
+Cave
+It&apos;s very dark in here. Perhaps i should light a fire
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0ab0">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0c30"/>
+      <child nodeId="node-0x19b0db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0c30">
+    <command xml:space="preserve">put knife in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19b0db0">
+    <command xml:space="preserve">put prism in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19b0f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19b0f30">
+    <command xml:space="preserve">put prism in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1a46dc0">
+    <command xml:space="preserve">eaast</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1a46f40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1a46f40">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+(first opening the Cabin Door)
+
+The Jungle
+You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view.
+
+A ray of sunlight passing through the trees  illuminates an edelweiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd120">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd2a0">
+    <command xml:space="preserve">ente cave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd420">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">(first opening the Cave Entrance)
+
+Cave
+It&apos;s very dark in here. Perhaps i should light a fire
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd5a0">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd720">
+    <command xml:space="preserve">put knife in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fd8a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fd8a0">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fda20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fda20">
+    <command xml:space="preserve">all</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fdba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fdba0">
+    <command xml:space="preserve">clear screen</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fdd20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fdd20">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba80fdea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba80fdea0">
+    <command xml:space="preserve">screen</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81261b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81261b0">
+    <command xml:space="preserve">go tohell motherfucker</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19cb1c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Cabin Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19cb340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19cb340">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+The Jungle
+You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east.
+
+A ray of sunlight passing through the trees  elluminates an edelwiss flower.
+
+You can also see an edelwiss here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19cb4c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19cb4c0">
+    <command xml:space="preserve">get edelwiss</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19cb640">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+(first opening the Cabin Door)
+
+The Jungle
+You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view.
+
+A ray of sunlight passing through the trees  illuminates an edelweiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19cb7c0"/>
+      <child nodeId="node-0x19cbc40"/>
+      <child nodeId="node-0x19cbdc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19cb7c0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cabin
@@ -424,10 +1429,10 @@ You can also see a prism here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a1760"/>
+      <child nodeId="node-0x19cb940"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a1760">
+  <item nodeId="node-0x19cb940">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 The Jungle
@@ -442,10 +1447,10 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a18e0"/>
+      <child nodeId="node-0x19cbac0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a18e0">
+  <item nodeId="node-0x19cbac0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">A mysterious figure jumps out from a behind a tree and puts an arrow into your skull
 
@@ -462,7 +1467,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f55602a1a60">
+  <item nodeId="node-0x19cbc40">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -473,7 +1478,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f55602a1ee0">
+  <item nodeId="node-0x19cbdc0">
     <command xml:space="preserve">up</command>
     <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
 &gt;</result>
@@ -483,12 +1488,13 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a1d60"/>
-      <child nodeId="node-0x7f5538253a20"/>
-      <child nodeId="node-0x7f5538327d20"/>
+      <child nodeId="node-0x19cbf40"/>
+      <child nodeId="node-0x19f45d0"/>
+      <child nodeId="node-0x1a1e610"/>
+      <child nodeId="node-0x7f2ba81d4120"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a1d60">
+  <item nodeId="node-0x19cbf40">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">
 The Jungle
@@ -503,10 +1509,10 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55602a1be0"/>
+      <child nodeId="node-0x19f4150"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55602a1be0">
+  <item nodeId="node-0x19f4150">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Cabin
@@ -523,10 +1529,10 @@ You can also see a prism here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5538253120"/>
+      <child nodeId="node-0x19f42d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5538253120">
+  <item nodeId="node-0x19f42d0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 The Jungle
@@ -541,10 +1547,10 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55382532a0"/>
+      <child nodeId="node-0x19f4450"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55382532a0">
+  <item nodeId="node-0x19f4450">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">A mysterious figure jumps out from a behind a tree and puts an arrow into your skull
 
@@ -561,12 +1567,14 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f5538253a20">
+  <item nodeId="node-0x19f45d0">
     <command xml:space="preserve">enter cave</command>
     <result xml:space="preserve">(first opening the Cave Entrance)
 
 Cave
 It&apos;s very dark in here. Perhaps i should light a fire
+
+You can see a helmet, a statue and a pickle here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -575,125 +1583,14 @@ It&apos;s very dark in here. Perhaps i should light a fire
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5538253ba0"/>
-      <child nodeId="node-0x7f55383275a0"/>
-      <child nodeId="node-0x7f55383278a0"/>
+      <child nodeId="node-0x19f4750"/>
+      <child nodeId="node-0x19f4d50"/>
+      <child nodeId="node-0x1a1e490"/>
+      <child nodeId="node-0x7f2ba8126db0"/>
+      <child nodeId="node-0x7f2ba8205920"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5538253ba0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Cave
-It&apos;s very dark in here. Perhaps i should light a fire
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5538253d20"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5538253d20">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(the Cave Entrance)
-You see nothing special about the Cave Entrance.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5538253ea0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5538253ea0">
-    <command xml:space="preserve">fire</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5538327120"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5538327120">
-    <command xml:space="preserve">take fire</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7f55383275a0">
-    <command xml:space="preserve">light fire</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5538327420"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5538327420">
-    <command xml:space="preserve">Light Fiure</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f55383272a0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f55383272a0">
-    <command xml:space="preserve">light fire</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-    <children>
-      <child nodeId="node-0x7f5538327720"/>
-    </children>
-  </item>
-  <item nodeId="node-0x7f5538327720">
-    <command xml:space="preserve">Light Fire</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7f55383278a0">
-    <command xml:space="preserve">Light Fire</command>
-    <result xml:space="preserve">You light a fire. The cave is illuminated.
-
-&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <annotation xml:space="preserve"></annotation>
-  </item>
-  <item nodeId="node-0x7f5538327d20">
+  <item nodeId="node-0x19f4750">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Canopy
 You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
@@ -705,10 +1602,230 @@ You see a cave here. Why is a cave in the canopy? You look around and while ther
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5538327ea0"/>
+      <child nodeId="node-0x19f48d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5538327ea0">
+  <item nodeId="node-0x19f48d0">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(the Cave Entrance)
+You see nothing special about the Cave Entrance.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19f4a50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19f4a50">
+    <command xml:space="preserve">fire</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19f4bd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19f4bd0">
+    <command xml:space="preserve">take fire</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x19f4d50">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x19f4ed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x19f4ed0">
+    <command xml:space="preserve">Light Fiure</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1a1e190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1a1e190">
+    <command xml:space="preserve">light fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1a1e310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1a1e310">
+    <command xml:space="preserve">Light Fire</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1a1e490">
+    <command xml:space="preserve">Light Fire</command>
+    <result xml:space="preserve">You light a fire. The cave is illuminated.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f2ba8126db0">
+    <command xml:space="preserve">exit cave</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8126c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8126c30">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1880">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1a00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1a00">
+    <command xml:space="preserve">get helmet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1b80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1b80">
+    <command xml:space="preserve">put helmet in fire</command>
+    <result xml:space="preserve">This dangerous act would achieve little.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1d00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1d00">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">(the helmet)
+Nothing obvious happens.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1e80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1e80">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f2ba8205920">
+    <command xml:space="preserve">attach helmet to statue</command>
+    <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1a1e610">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Canopy
+You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1a1e790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1a1e790">
     <command xml:space="preserve">clear</command>
     <result xml:space="preserve">What do you want to clear?
 
@@ -719,7 +1836,232 @@ You see a cave here. Why is a cave in the canopy? You look around and while ther
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f5538253720">
+  <item nodeId="node-0x7f2ba81d4120">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+The Village
+The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d42a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d42a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Canopy
+You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4420">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+The Village
+The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d45a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d45a0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Canopy
+You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4720">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+The Jungle
+You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view.
+
+A ray of sunlight passing through the trees  illuminates an edelweiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d48a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d48a0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Cabin
+You stand in a wooden cabin. You see a door on the east of the cabin.
+
+A butter knife lies on the floor.
+
+You can also see a prism here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4a20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4a20">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4ba0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4ba0">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close the Cabin Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4d20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4d20">
+    <command xml:space="preserve">exit cabin</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba81d4ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba81d4ea0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">But you aren&apos;t in anything at the moment.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba82051a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba82051a0">
+    <command xml:space="preserve">go to hell</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8205320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8205320">
+    <command xml:space="preserve">die</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba82054a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba82054a0">
+    <command xml:space="preserve">duck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8205620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8205620">
+    <command xml:space="preserve">fuck you</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba82057a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba82057a0">
+    <command xml:space="preserve">gitch</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1a1e910">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">butter knife: Your hand is now greasy. Gross!
 prism: Taken.
@@ -731,10 +2073,10 @@ prism: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55382535a0"/>
+      <child nodeId="node-0x1a1ea90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55382535a0">
+  <item nodeId="node-0x1a1ea90">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You open the Cabin Door.
 
@@ -745,10 +2087,10 @@ prism: Taken.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5538253420"/>
+      <child nodeId="node-0x1a1ec10"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5538253420">
+  <item nodeId="node-0x1a1ec10">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
 
@@ -764,10 +2106,10 @@ A ray of sunlight passing through the trees  illuminates an edelweiss flower.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f55382538a0"/>
+      <child nodeId="node-0x1a1ed90"/>
     </children>
   </item>
-  <item nodeId="node-0x7f55382538a0">
+  <item nodeId="node-0x1a1ed90">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony, blood gushing onto the soft brown soil. a white man appears. HELP ME! you scream. the man approaches you, procures a knife, and removes your scalp.
 
@@ -785,27 +2127,171 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7f5538327ba0">
+  <item nodeId="node-0x1a1ef10">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7f5538327a20"/>
+      <child nodeId="node-0x1a461c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7f5538327a20">
+  <item nodeId="node-0x1a461c0">
     <command xml:space="preserve">wait</command>
     <result xml:space="preserve">Time passes.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f2ba8126f30">
+    <command xml:space="preserve">ujp</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8126ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8126ab0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1100">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+(first opening the Cabin Door)
+
+The Jungle
+You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view.
+
+A ray of sunlight passing through the trees  illuminates an edelweiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1280">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1400">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1580">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Cave
+You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave
+
+You can see a helmet, a statue and a pickle here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2b980e1700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2b980e1700">
+    <command xml:space="preserve">enter cave</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f2ba8205da0">
+    <command xml:space="preserve">attach butter knife to prism</command>
+    <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8205c20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8205c20">
+    <command xml:space="preserve">get prism</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f2ba8205aa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f2ba8205aa0">
+    <command xml:space="preserve">show prism to butter knife</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>

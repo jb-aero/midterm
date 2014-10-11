@@ -49,15 +49,27 @@ Canopy is a room.Canopy is above The Jungle. "You see a cave here. Why is a cave
 Chapter 2 - The Cave       
 
 
-The Cave is a room. "It's very dark in here. Perhaps i should light a fire" 
+The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
 
-The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Deep Jungle. 
+a pickle is an animal.
+a pickle is here.
+a helmet is here.
+a statue is here.
+
+The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
 
 Understand "Light Fire" as berning. berning is an action applying to nothing
 
 After berning:
   say "You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice"
 
+Understand "put [anything] in fire" as burning.
 
-Chapter 3 - foo
+attaching is an action applying to two things. Understand "attach [something] to [something]" as attaching.
+
+
+
+Chapter 3 - The Village
+
+The Village is a room. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
 
