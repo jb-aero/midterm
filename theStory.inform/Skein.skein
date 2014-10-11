@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x2105290" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x7f55600f7db0"/>
+  <item nodeId="node-0x2105290">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You find yourself alone in a small abandoned cabin. You can&apos;t recall how you got here. You stand up to observe your surroundings.  It&apos;s quiet... too quiet... 
+theStory
+An Interactive Fiction by Stuart Woodbury
+Release 1 / Serial number 141011 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Cabin
+You stand in a wooden cabin. You see a door on the east of the cabin.
+
+A butter knife lies on the floor.
+
+You can also see a prism here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2105d10"/>
+      <child nodeId="node-0x7f55600f7ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2105d10">
+    <command xml:space="preserve">eat knife</command>
+    <result xml:space="preserve">(first taking the butter knife)
+Yum!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x2105e90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x2105e90">
+    <command xml:space="preserve">take prism</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f71b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f71b0">
+    <command xml:space="preserve">drop prism</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f7330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f7330">
+    <command xml:space="preserve">drop knife</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f74b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f74b0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+(first opening the Cabin Door)
+
+The Jungle
+You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east.
+
+A ray of sunlight passing through the trees  elluminates an edelwiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f7630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f7630">
+    <command xml:space="preserve">get edlewiss</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f77b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f77b0">
+    <command xml:space="preserve">get edelwiss</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f7930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f7930">
+    <command xml:space="preserve">get edelwiss flower</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f55600f7ab0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">butter knife: Taken.
+prism: Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f7c30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f7c30">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the Cabin Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f55600f7db0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f55600f7db0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve"> What the? How did I get here, I don&apos;t remember coming to a jungle!!
+
+The Jungle
+You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east.
+
+A ray of sunlight passing through the trees  elluminates an edelwiss flower.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>

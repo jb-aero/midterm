@@ -1,0 +1,42 @@
+"theStory" by "Stuart Woodbury"
+
+Chapter 1 - Into the Jungle
+
+When play begins:
+ say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
+
+The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
+The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
+
+A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
+
+A prism is here.  
+
+After eating the knife:
+    say "Yum!"
+        
+Before going from The Cabin to The Jungle for the first time:
+    say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
+   
+The Jungle is room. "You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east."
+
+An edelweiss flower is here. "A ray of sunlight passing through the trees  elluminates an edelwiss flower."
+
+A edelwiss is here.
+
+Before going east when the player is in the Jungle: 
+    say "A mysterious figure jumps out from a behind a tree and puts an arrow into your skull"; 
+       end the story saying "You have died".
+
+Deep Jungle is a room. Deep Jungle is above The Jungle. "You see a cave here." 
+
+
+Chapter 2 - The Cave       
+
+
+The Cave is a room. "It's very dark in here" 
+
+The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Deep Jungle. 
+
+Chapter 3 - foo
+
