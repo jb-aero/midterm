@@ -18,14 +18,14 @@
     </dict>
     <key>2</key><dict>
         <key>Filename</key><string>/home/stuart/midterm/theStory.inform/Source/story.ni</string>
-        <key>Line</key><integer>34</integer>
+        <key>Line</key><integer>49</integer>
         <key>Title</key><string>Chapter 2 - The Cave</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>/home/stuart/midterm/theStory.inform/Source/story.ni</string>
-        <key>Line</key><integer>41</integer>
+        <key>Line</key><integer>56</integer>
         <key>Title</key><string>Chapter 3 - foo</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>

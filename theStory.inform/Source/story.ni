@@ -10,23 +10,38 @@ The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of 
 
 A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
 
-A prism is here.  
+After taking the knife:
+  say "Your hand is now greasy. Gross!"
+
+After dropping the knife:
+  say "Your hand is now even more Greasy!"
 
 After eating the knife:
     say "Yum!"
+
+A prism is here.  The description is "Pretty colors"
+
         
 Before going from The Cabin to The Jungle for the first time:
     say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
    
-The Jungle is room. "You enter a dense jungle.  There is two mysterious narrow pathways, one leading to the north and one leading to the east."
+The Jungle is room. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view."
 
-An edelweiss flower is here. "A ray of sunlight passing through the trees  elluminates an edelwiss flower."
+An edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower."
 
-A edelwiss is here.
+
+After taking the edelweiss:
+  say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
+
+After dropping the edelweiss:
+  say "You draw the flower from your knapsack; letting your hand drop, you release the flower, which floats towards the soil. If only it still had its roots, i could have done a transplant."
 
 Before going east when the player is in the Jungle: 
-    say "A mysterious figure jumps out from a behind a tree and puts an arrow into your skull"; 
+    say "You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony as your precious blood gushes onto the soft brown soil. a white man appears. HELP ME! you beg. the man approaches you, procures a knife, and removes your scalp."; 
        end the story saying "You have died".
+
+After going Up:
+  say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
 
 Deep Jungle is a room. Deep Jungle is above The Jungle. "You see a cave here." 
 

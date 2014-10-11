@@ -14,7 +14,7 @@ Reading language definition from </usr/share/gnome-inform7/Languages/English/Syn
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 302 words long.
+I've now read your source text, which is 497 words long.
 
 
 -----------------------------------------------------
@@ -175,7 +175,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 102 files written as streams.
-CPU time: 58 centiseconds
+CPU time: 60 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
