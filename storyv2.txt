@@ -3,7 +3,13 @@
 Chapter 1 - Into the Jungle
 
 When play begins:
+now the score is 0;
  say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
+
+use scoring.
+Every turn:
+if the score is 29,
+  end the story finally.
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
 The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
@@ -11,6 +17,7 @@ The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of 
 A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
 
 After taking the knife:
+  increment the score;
   say "Your hand is now greasy. Gross!"
 
 After dropping the knife:
@@ -21,16 +28,25 @@ After eating the knife:
 
 A prism is here.  The description is "Pretty colors"
 
+After taking the prism:
+  increment the score.
+
+After opening The Door:
+  increment the score.
+
+After going east:
+  increment the score.
         
 Before going from The Cabin to The Jungle for the first time:
     say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
    
 The Jungle is room. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view."
 
-An edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower."
+An edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
 
 
 After taking the edelweiss:
+ increment score;
   say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
 
 After dropping the edelweiss:
@@ -41,6 +57,7 @@ Before going east when the player is in the Jungle:
        end the story saying "You have died".
 
 After going Up:
+  increment score;
   say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
 
 Canopy is a room.Canopy is above The Jungle. "You see a cave here. Why is a cave in the canopy? You look around and while there is a beautiful view, you cannot see below the canopy and all the other branches are too far away for you to go anywhere else except into the cave" 
@@ -48,8 +65,11 @@ Canopy is a room.Canopy is above The Jungle. "You see a cave here. Why is a cave
 
 Chapter 2 - The Cave       
 
+after entering The Cave:
+  increment the score.
 
 The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
+
 
 a pickle is an animal.
 a pickle is here.
@@ -58,19 +78,38 @@ a statue is here.
 
 The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
 
+after berning:
+  increment the score.
+
 Understand "Light Fire" as berning. berning is an action applying to nothing
 
 After berning:
   say "You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice"
 
+After waiting:
+  increment the score.
+
 Understand "put [anything] in fire" as burning.
+
+after burning edelweiss:
+  increment the score.
+
 
 attaching is an action applying to two things. Understand "attach [something] to [something]" as attaching.
 
+after attaching:
+  increment the score.
 
+after going north:
+  increment the score.
 
 Chapter 3 - The Village
 
 The Village is a room. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
+
+Chapter 4 - The Dungeon
+
+The Dungeon is a room. "Here is the magic dungeon. maybe here you can find a way to get out of this nasty dream."
+
 
 
