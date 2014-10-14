@@ -1,0 +1,210 @@
+"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey"
+
+Chapter 1 - Into the Jungle
+
+When play begins:
+now the score is 0;
+ say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
+
+use scoring.
+Every turn:
+if the score is 29,
+  end the story finally.
+
+The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
+The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
+
+A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
+
+After taking the knife:
+  increment the score;
+  say "Your hand is now greasy. Gross!"
+
+After dropping the knife:
+  say "Your hand is now even more Greasy!"
+
+After eating the knife:
+    say "Yum!"
+
+A prism is here.  The description is "Pretty colors"
+
+After taking the prism:
+  increment the score.
+
+After opening The Door:
+  increment the score.
+
+After going east:
+  increment the score.
+        
+Before going from The Cabin to The Jungle for the first time:
+    say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
+   
+The Jungle is room. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view."
+
+A edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
+
+
+After taking the edelweiss:
+ increment score;
+  say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
+
+After dropping the edelweiss:
+  say "You draw the flower from your knapsack; letting your hand drop, you release the flower, which floats towards the soil. If only it still had its roots, i could have done a transplant."
+
+Before going east when the player is in the Jungle: 
+    say "You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony as your precious blood gushes onto the soft brown soil. a white man appears. HELP ME! you beg. the man approaches you, procures a knife, and removes your scalp."; 
+       end the story saying "You have died".
+
+After going Up:
+  increment score;
+  say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
+
+Canopy is a room.Canopy is above The Jungle. "The vine leads  up to a tree branch, from which you can step on to a plateau. This is a surprise because through the dense jungle, you could never have seen the rock formation on which you now stand. At your new height, you can see a village to the north. to the east is a cave. perhaps you should go take a look..." 
+
+ 
+ A bird nest is here.
+
+Chapter 2 - The Cave       
+
+after entering The Cave:
+  increment the score.
+
+The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
+
+fooing is an action applying to nothing. understand "exit Cave"  as fooing.
+
+after fooing:
+  say "That will never happen. do what you have to do and then go north.";
+  increment the score.
+
+a1ing is an action applying to nothing. understand "Put Edelweiss In Fire" as a1ing.
+
+after a1ing:
+  say "You put the Edelweiss flower in the fire. It burns up in you hand. You withdraw your hand. You feel a strange sensation; from the ashes on the palm of your hand, an Edelweiss flower begins to grow. The flower regenerates.";
+  increment the score.
+
+a2ing is an action applying to nothing. understand "Attach Helmet To Statue" as a2ing.
+
+after a2ing:
+  say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then, the helmet falls off the statue, and lands with a resounding clang";
+  increment the score.
+
+
+a pickle is an animal.
+a pickle is here.
+a helmet is here.
+a statue is here.
+
+The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
+
+Understand "Light Fire" as berning. berning is an action applying to nothing
+
+After berning:
+  say "You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice";
+  increment the score.
+
+a4ing is an action applying to nothing. understand "Show prism to pickle" as a4ing.
+
+after a4ing:
+  say "The pickle is unimpressed";
+  increment the score.
+
+After waiting:
+  increment the score.
+
+after going north:
+  increment the score.
+
+Chapter 3 - The Village
+
+The Village  is a room. The Village is west of The Dungeon. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
+
+a syringe is here. "there is a needle in the gutter" 
+
+a prison is here. "A large brick building looms over the side streets" 
+
+a3ing is an action applying to nothing. understand "Ponder The Meaning of Life" as a3ing.
+
+after a3ing:
+  say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
+  increment the score.
+  
+
+Chapter 4 - The Dungeon
+
+The Dungeon is a room. The  Dungeon is east of The Village. "Here is the magic dungeon. maybe here you can find a way to get out of this nasty dream."
+
+The knight is here.
+
+j1ing is an action applying to nothing. Understand "light fire" as j1ing.
+
+after j1ing:
+  say "The liquid in the cauldron begins to boil, and dark fumes spill over the edge".
+  
+j2ing is an action applying to nothing. Understand "inhale fumes" as j2ing.
+
+after j2ing:
+  say "You feel light-headed, and your vision goes dim, but you remain conscious".
+  increment the score.
+
+after waiting before j2ing:
+  say "The cauldron continues bubbling fumes".
+
+after waiting after j2ing:
+  say "Your vision clears and you find yourself in front of a dirty mirror".
+  
+j3ing is an action applying to nothing. Understand "polish mirror", "clean mirror", "wipe mirror" as j3ing.
+
+after j3ing:
+  say "The mirror is now reflective again, but there is something unusual about it".
+  
+after examining the mirror after j3ing:
+  say "As you peer into the mirror you fall forward, and with a thud, find yourself awake and in your own bed".
+  end the game saying "You escaped the dream!".
+
+[Strategy learned from http://eblong.com/zarf/zweb/btyt/btyt-src.html]
+Chapter - Types
+
+A character is a kind of thing.
+A character has some text called keyword.
+A character has some text called purpose. The purpose is usually "to exist".
+A character can be friendly or hostile. Characters are usually friendly.
+A character can be locked or unlocked. Characters are usually unlocked.
+
+Chapter - Character
+The knight is a hostile character. The keyword is "XYZZY".
+
+Perform knight:
+  instead say "The knight recognizes you as a member of the secret order and opens
+
+Macbeth is a character. The keyword is "plugh". The purpose is "to find the one who dislikes ginger".
+Understand "ew", "eww", "bleh", "blegh", "gross" as "plugh".
+
+Perform Macbeth:
+  instead say "Macbeth drops a secret ingredient in the cauldron and prepares a fire before vanishing into the mist".
+  instead increment the score.
+
+Chapter - Actions
+[Strategy learned from http://eblong.com/zarf/zweb/btyt/btyt-src.html]
+To say (T - text) to (C - Character):
+  let K be the keyword of C;
+  let P be the purpose of C;
+  if C is locked:
+    say "(C) has nothing more to say to you.";
+  else:
+    if C is hostile:
+      if T is K:
+        Perform C;
+      else:
+        say "The (C) becomes annoyed and kills you";
+          end the story saying "You have died".
+    else:
+      if T is K:
+        Perform C;
+      else if T is "hello" or "hi" or "greetings":
+        say "(C) politely returns your greeting.";
+      else if T is "what is your purpose" or "what are you doing here":
+        say "(C) replies that their purpose is (P)";
+      else:
+        say "(C) does not know how to respond and remains quiet.";
