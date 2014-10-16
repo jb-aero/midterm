@@ -8,8 +8,8 @@ now the score is 0;
 
 use scoring.
 Every turn:
-if the score is 29,
-  end the story finally.
+  if the score is 28,
+    end the story finally.
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
 The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
@@ -30,6 +30,8 @@ A prism is here.  The description is "Pretty colors"
 
 After taking the prism:
   increment the score.
+
+A ginger is here. it is edible. "A piece of ginger lies on the floor." The description is "That stuff comes from korea."
 
 After opening The Door:
   increment the score.
@@ -118,93 +120,105 @@ after going north:
 
 Chapter 3 - The Village
 
-The Village  is a room. The Village is west of The Dungeon. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
+The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
+
+Knight is in The Village.
+
+a5ing is an action applying to nothing. Understand "say xyzzy to Knight" as a5ing.
+
+After a5ing:
+  say "The knight replies: BACK THE FUCK UP BEFORE YOU GET SMACKED THE FUCK UP!";
+  increment the score.
 
 a syringe is here. "there is a needle in the gutter" 
 
-a prison is here. "A large brick building looms over the side streets" 
+a jail is here. "A large brick building looms over the side streets" 
 
 a3ing is an action applying to nothing. understand "Ponder The Meaning of Life" as a3ing.
 
 after a3ing:
   say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
   increment the score.
-  
 
-Chapter 4 - The Dungeon
+After going east:
+  increment the score.  
 
-The Dungeon is a room. The  Dungeon is east of The Village. "Here is the magic dungeon. maybe here you can find a way to get out of this nasty dream."
+Chapter 4 - Prison Lawn
 
-The knight is here.
+Prison Lawn is a room. Prison Lawn is east of The Dungeon. Prison Lawn is east of The Village. "The only patch of green grass in all of town is on the prison lawn. you see a dungeon to the north. surely the dungeon is a great source of fertilizer. No wonder the grass is so green."
+
+A duck is here. It is edible. "A happy duck." The description is "Upon looking at this duck, you become very hungry. hungry enough to eat it alive."
+
+After taking duck:
+  increment the score.
+
+After eating duck:
+  increment the score.
+
+After going north: 
+ increment the score.
+
+Chapter 5 - The Dungeon
+
+
+The Dungeon is a room. The  Dungeon is north of Prison Lawn. "Here is the magic dungeon. maybe here you can find a way to get out of this nasty dream."
+
+Macbeth is in The Dungeon.
+
+j5ing is an action applying to nothing. Understand "say plugh to macbeth" as j5ing.
+
+After j5ing:
+  say "Macbeth replies: All the perfumes in arabia could not sweeten this little hand. *he cries* Oh what have i done, killing my king! boo hoo hoo";
+  increment the score.
+
+A cauldron is here. "You see a big stone Cauldron."
+
+j6ing is an action applying to nothing. Understand "open cauldron" as j6ing.
+
+after j6ing:
+  say "there are a bunch of vegetables in the cauldron. looks like it could use some ginger though";
+  increment the score.
+
+j7ing is an action applying to nothing. Understand "put ginger in caludron" as j7ing.
+
+after j7ing:
+  say "the veggie soup is complete now. time to light the fire.";
+  increment the score.
 
 j1ing is an action applying to nothing. Understand "light fire" as j1ing.
 
 after j1ing:
-  say "The liquid in the cauldron begins to boil, and dark fumes spill over the edge".
+  say "The liquid in the cauldron begins to boil, and dark fumes spill over the edge";
+  increment the score.
   
 j2ing is an action applying to nothing. Understand "inhale fumes" as j2ing.
 
 after j2ing:
-  say "You feel light-headed, and your vision goes dim, but you remain conscious".
+  say "You feel light-headed, and your vision goes dim, but you remain conscious";
   increment the score.
 
-after waiting before j2ing:
+after j2ing:
   say "The cauldron continues bubbling fumes".
 
-after waiting after j2ing:
+after  j2ing:
   say "Your vision clears and you find yourself in front of a dirty mirror".
   
 j3ing is an action applying to nothing. Understand "polish mirror", "clean mirror", "wipe mirror" as j3ing.
 
 after j3ing:
-  say "The mirror is now reflective again, but there is something unusual about it".
+  say "The mirror is now reflective again, but there is something unusual about it";
+  increment the score.
+
+after waiting:
+  increment the score.
   
-after examining the mirror after j3ing:
-  say "As you peer into the mirror you fall forward, and with a thud, find yourself awake and in your own bed".
-  end the game saying "You escaped the dream!".
+j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 
-[Strategy learned from http://eblong.com/zarf/zweb/btyt/btyt-src.html]
-Chapter - Types
+after j4ing:
+  say "You don't see anyting.";
+  increment the score.
 
-A character is a kind of thing.
-A character has some text called keyword.
-A character has some text called purpose. The purpose is usually "to exist".
-A character can be friendly or hostile. Characters are usually friendly.
-A character can be locked or unlocked. Characters are usually unlocked.
 
-Chapter - Character
-The knight is a hostile character. The keyword is "XYZZY".
 
-Perform knight:
-  instead say "The knight recognizes you as a member of the secret order and opens
 
-Macbeth is a character. The keyword is "plugh". The purpose is "to find the one who dislikes ginger".
-Understand "ew", "eww", "bleh", "blegh", "gross" as "plugh".
 
-Perform Macbeth:
-  instead say "Macbeth drops a secret ingredient in the cauldron and prepares a fire before vanishing into the mist".
-  instead increment the score.
-
-Chapter - Actions
-[Strategy learned from http://eblong.com/zarf/zweb/btyt/btyt-src.html]
-To say (T - text) to (C - Character):
-  let K be the keyword of C;
-  let P be the purpose of C;
-  if C is locked:
-    say "(C) has nothing more to say to you.";
-  else:
-    if C is hostile:
-      if T is K:
-        Perform C;
-      else:
-        say "The (C) becomes annoyed and kills you";
-          end the story saying "You have died".
-    else:
-      if T is K:
-        Perform C;
-      else if T is "hello" or "hi" or "greetings":
-        say "(C) politely returns your greeting.";
-      else if T is "what is your purpose" or "what are you doing here":
-        say "(C) replies that their purpose is (P)";
-      else:
-        say "(C) does not know how to respond and remains quiet.";
