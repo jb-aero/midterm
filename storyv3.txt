@@ -1,6 +1,9 @@
 "theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey,  anderson chan"
 
 an axe is a thing.
+a sword is a thing.
+
+chopping is an action applying to two things. understand "chop [tree] with [axe]" as chopping.
 
 Chapter 1 - Into the Jungle
 
@@ -48,7 +51,7 @@ The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  Y
 
 A tree is here.
 
-chopping is an action applying to two things. understand "chop [tree] with [axe]" as chopping.
+
 
 after chopping:
 	say "you chop down the tree [line break] as the tree falls, you experience a thrill like no other. but there are no more trees. Perhaps there are other things to chop?";
@@ -69,7 +72,7 @@ Before going east when the player is in the Jungle:
     say "You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony as your precious blood gushes onto the soft brown soil. a white man appears. HELP ME! you beg. the man approaches you, procures a knife, and removes your scalp."; 
        end the story saying "You have died".
 
-After going Up:
+before going Up:
   increment score;
   say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
 
@@ -167,6 +170,17 @@ After waiting:
 After waiting for the second time:
   say "Turns out that noise was just part of the cave collapsing. there is no telling how long the structure will hold."
 
+Before going west when the player is in the cave:
+     say "As you hurry to the exit on the west you fall through a hole on the ground.";
+     say "[Italic type] You feel yourself plumetting downwards at highspeeds, you can't make out your surroundings and accept that your death is fast approaching...";
+     move player to Unknown Location.
+     
+Unknown Location is a room.  "You land with a soft thump on what seems to be a beach. Looking around you find that the ocean surrounds the small plot of sand. In the middle of the small island is a palm tree with a lone coconut."
+ A coconut is here. It is edible.
+ After eating coconut:
+   end the story saying "Thats the last meal you have before slowly starving to death. [line break] You have died" 
+
+
 before going north:
   increment the score.
 
@@ -199,6 +213,7 @@ After killKnighting for the third time:
 	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead.";
 	now the knight is nowhere;
 	now the axe is nowhere;
+	now there is a sword;
 	increase the score by 20.
 
  
@@ -313,4 +328,5 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 200.
+
 
