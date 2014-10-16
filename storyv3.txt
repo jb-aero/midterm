@@ -173,6 +173,23 @@ After a5ing:
   say "The knight replies: BACK THE FUCK UP BEFORE YOU GET SMACKED THE FUCK UP!";
   increment the score.
 
+killKnighting is an action applying to two things. Understand "hit [Knight] with [axe]" as killKnighting.
+
+After killKnighting:
+	say "You grip the axe with both hands and take a wide stance. [line break] 'HALT!' the knight draws his sword. [line break] you swing low. your axe smashes into the knight's left knee. the armor does not hold and his knee bends inward, barely slowing the axe down. his legs buckle together and under the weight of the axe, his right leg bone snaps. [line break] good swing! [line break] The knight pivots on his off hand, savagely brandishing his sword.";
+	increase the score by 5.
+	
+After killKnighting for the second time:
+	say "You raise your axe again. The knight, sensing he is not in a good place, decides to ask for mercy.[line break] 'Wait, Wait, whatever i did i'm sorry! please don't hit me again, i have a family! [line break] You pause. you consider letting the knight live. Your heart races, your palms are sweaty, and your veins are swelling with adrenaline. this feels good. You try to focus on the matter at hand, whether or not to space the knight, but you feel a strong impulse to finish the job. [line break] You say, 'i will let you live if you drop your weapon.' the knight obliges. you rotate your axe 90 degrees in your hands. now the flat back end, opposite the blade, is facing the knight. you swing the hammer end down upon the knight's head. [line break] 'AAAHHHHH!' [line break] the helmet crumples under the weight of the hammer. the knight groans and falls to his side, apparently unconscious. he is breathing faintly.";
+	increase the score by 5.
+
+After killKnighting for the third time:
+	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks.";
+	now the knight is nowhere;
+	now the axe is nowhere;
+	increase the score by 5.
+
+ 
 a syringe is here. "there is a needle in the gutter" 
 
 After examining syringe:
@@ -267,12 +284,3 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "You don't see anything. are you a vampire?";
   increment the score.
-
-
-
-
-
-
-
-
-
