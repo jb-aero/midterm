@@ -10,7 +10,7 @@ now the score is 0;
 
 use scoring.
 Every turn:
-  if the score is 28,
+  if the score is  at least 115,
     end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was wierd. no more benadryl before bed".
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
@@ -44,10 +44,7 @@ Before going east:
 Before going from The Cabin to The Jungle for the first time:
     say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
    
-The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view."
-
-After looking for the second time:
-	say "you notice a deer path heading north."
+The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. there are hanging vines which you could climb up, and there is a deer path heading north."
 
 A tree is here.
 
@@ -80,13 +77,16 @@ Canopy is a room.Canopy is above The Jungle. "The vine leads  up to a tree branc
 
   A bird nest is here.
 
-Desert is a room. Desert is north of The Jungle. "An arid desert stretches out as far as the eye can see. to your east is a tall rocky ridge line which carries on for miles. it is unclimbable. "
+Desert is a room. Desert is north of The Jungle. "An arid desert stretches out as far as the eye can see. to your east is a tall rocky ridge line which carries on for miles. it is unclimbable. To the south is the Jungle."
 
 A camel is an animal.
 A camel is here. "A thirsty camel stands by a merchant. Looks like the camel has cottonmouth. Why is it smoking a cigarette?"
 
 A merchant is a person. he carries an axe.
 A merchant is here. "A merchant stands by a cart full of axes."
+
+After examining merchant:
+	say "Perhaps if you asked nicely, he would give you one"
 
 b1ing is an action applying to nothing. understand "Ask merchant for axe" as b1ing.
 after b1ing:
@@ -141,7 +141,10 @@ after a1ing:
 a2ing is an action applying to nothing. understand "Attach Helmet To Statue" as a2ing.
 
 after a2ing:
-  say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then, the helmet falls off the statue, and lands with a resounding clang";
+  say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then it gets wierd. Take another look around";
+  now a knight is in the cave;
+  now the helmet is nowhere;
+  now the statue is nowhere;
   increment the score.
 
 The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
@@ -149,7 +152,7 @@ The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is
 Understand "Light Fire" as berning. berning is an action applying to nothing
 
 After berning:
-  say "You light a fire. The cave is illuminated. You hear a strange sound! is something coming? you had better wait twice";
+  say "You light a fire. The cave is illuminated. you see an exit to the north. You hear a strange sound! is something coming? you had better wait twice";
   increment the score.
 
 a4ing is an action applying to nothing. understand "Show prism to pickle" as a4ing.
@@ -164,12 +167,12 @@ After waiting:
 After waiting for the second time:
   say "Turns out that noise was just part of the cave collapsing. there is no telling how long the structure will hold."
 
-after going north:
+before going north:
   increment the score.
 
 Chapter 3 - The Village
 
-The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore"
+The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore. You see a big field to the east. To the south is a cave."
 
 Knight is in The Village.
 
@@ -196,7 +199,7 @@ After killKnighting for the third time:
 	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead.";
 	now the knight is nowhere;
 	now the axe is nowhere;
-	increase the score by 5.
+	increase the score by 20.
 
  
 a syringe is here. "there is a needle in the gutter" 
@@ -204,7 +207,7 @@ a syringe is here. "there is a needle in the gutter"
 After examining syringe:
   say "a small syringe with an orange piece of plastic. no doubt it was intended for diabetics. but the tip is totally dull. it looks more like a hole punch. it doesn't look like this thing was in the possession of a diabetic."
 
-a jail is here. "A large brick building looms over the side streets" 
+a jail is here. "A large brick building looms over the side streets. it is a jail." 
 
 after examining jail:
   say "what do you call a big house full of <insert ethnicity here>? ... you chuckle"
@@ -215,14 +218,14 @@ after a3ing:
   say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
   increment the score.
 
-After going east:
+Before going east:
   increment the score.  
 
 Chapter 4 - Prison Lawn
 
-Prison Lawn is a room. Prison Lawn is east of The Dungeon. Prison Lawn is east of The Village. "The only patch of green grass in all of town is on the prison lawn. you see a dungeon to the north. surely the dungeon is a great source of fertilizer. No wonder the grass is so green."
+Prison Lawn is a room. Prison Lawn is east of The Dungeon. Prison Lawn is east of The Village. "The only patch of green grass in all of town is on the prison lawn. you see a dungeon to the north and a village to the west. surely the dungeon is a great source of fertilizer. No wonder the grass is so green. "
 
-A duck is here. It is edible. "A happy duck." The description is "Upon looking at this duck, you become very hungry. hungry enough to eat it alive."
+A duck is here. It is edible. "A duck is here." The description is "Upon looking at this duck, you become very hungry. hungry enough to eat it alive."
 
 After taking duck:
   increment the score.
@@ -231,13 +234,13 @@ After eating duck:
   say "you pick up the duck from behind and hold it firmly. It has no idea you are about to destroy it. You clamp your teeth around the neck of the duck, and bite down hard. the duck immediately begins to kick and struggle. It quacks in distress. it's vertebrae crack under the force of your jaw. The duck quacks. how quaint. You finally bite through the vertebrae and then rip the duck's head off, and spit it on the ground. you hold the duck up above your mouth and squeeze it. It's guts pour out through it's neck. A tasty meal.";
   increment the score.
 
-After going north: 
+before going north: 
  increment the score.
 
 Chapter 5 - The Dungeon
 
 
-The Dungeon is a room. The  Dungeon is north of Prison Lawn. "The dungeon is just four walls with a roof over it. along the walls are shackles with dead bodies at various stages of decay. there is a big cauldron in the middle, with a fire under the cauldron. You wonder why the prison managers are letting all this good meat go to waste."
+The Dungeon is a room. The  Dungeon is north of Prison Lawn. "The dungeon is just four walls with a roof over it. to the south is the Prison Lawn. along the walls are shackles with dead bodies at various stages of decay. there is a big cauldron in the middle, with a fire under the cauldron. You wonder why the prison managers are letting all this good meat go to waste."
 
 Macbeth is in The Dungeon.
 
@@ -257,12 +260,12 @@ killMacing is an action applying to two things. Understand "hit [Macbeth] with [
 
 After killMacing:
 	say "You grip your axe with both hands. you do an upswing which you quickly bring down as soon as the axe rises above shoulder level. It works, Macbeth is caught off guard. you slam the axe into Macbeth's shoulder, in the middle of his right clavicle. [line break] his clavicle shatters and his ribcage cracks. If you were any more to the left, you would have chopped his arm off completely. Blood erupts from the wound, covering the both of you. Macbeth becomes very pale. His eyes widen, as though they would pop from his head. A look of shock takes him over. you pull back and rip the axe from his body. [line break] 'AAAAAHHHHHHH! HELP, SOMEBODY HELP ME!!!!!!!!' [line break] that's more like it, it would be no fun if he was quiet.";
-		increase the score by 10.
+		increase the score by 20.
 		
 after killMacing for the second time:
 	say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. his kidney and intestines slide out. [line break] The king is dead. now you are king.";
 	now Macbeth is nowhere;
-	increase the score by 20.
+	increase the score by 50.
 
 A cauldron is here. "You see a big stone Cauldron."
 
@@ -308,7 +311,6 @@ after waiting:
 j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 
 after j4ing:
-  say "You don't see anything. are you a vampire?";
-  increment the score.
-
+  say "Your vision goes black and you feel an intense falling sensation.";
+  increase the score by 200.
 
