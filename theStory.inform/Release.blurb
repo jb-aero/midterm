@@ -1,19 +1,19 @@
 ! Blurb file created by Inform build 6L38
 
-status "/usr/share/gnome-inform7/Miscellany/CblorbModel.html" "/home/stuart/midterm/theStory.inform/Build/StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Jim\Documents\GitHub\midterm\theStory.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/home/stuart/midterm/theStory.inform"
+project folder "C:\Users\Jim\Documents\GitHub\midterm\theStory.inform"
 
 ! Blorb instructions
 
 storyfile leafname "theStory.gblorb"
-storyfile "/home/stuart/midterm/theStory.inform/Build/output.ulx" include
-ifiction "/home/stuart/midterm/theStory.inform/Metadata.iFiction" include
-cover "/usr/share/gnome-inform7/Miscellany/Cover.jpg"
-picture 1 "/usr/share/gnome-inform7/Miscellany/Cover.jpg"
+storyfile "C:\Users\Jim\Documents\GitHub\midterm\theStory.inform\Build\output.ulx" include
+ifiction "C:\Users\Jim\Documents\GitHub\midterm\theStory.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
 ! Placeholder variables
 
