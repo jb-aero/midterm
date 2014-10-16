@@ -1,4 +1,6 @@
-"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey, andrew dallwig, anderson chan"
+"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey,  anderson chan"
+
+an axe is a thing.
 
 Chapter 1 - Into the Jungle
 
@@ -44,6 +46,15 @@ Before going from The Cabin to The Jungle for the first time:
    
 The Jungle is room. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. perhaps you should try for a better view."
 
+A tree is here.
+
+chopping is an action applying to two things. understand "chop [tree] with [axe]" as chopping.
+
+after chopping:
+	say "you chop down the tree [line break] as the tree falls, you experience a thrill like no other. but there are no more trees. Perhaps there are other things to chop?";
+	now the tree is nowhere;
+	increase the score by 5.
+
 A edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
 
 
@@ -64,8 +75,21 @@ After going Up:
 
 Canopy is a room.Canopy is above The Jungle. "The vine leads  up to a tree branch, from which you can step on to a plateau. This is a surprise because through the dense jungle, you could never have seen the rock formation on which you now stand. At your new height, you can see a village to the north. to the east is a cave. perhaps you should go take a look..." 
 
- 
- A bird nest is here.
+  A bird nest is here.
+
+Desert is a room. Desert is north of The Jungle. "An arid desert stretches out as far as the eye can see. to your east is a tall rocky ridge line which carries on for miles. it is unclimbable. "
+
+A camel is an animal.
+A camel is here. "A thirsty camel stands by a merchant. Looks like the camel has cottonmouth. Why is it smoking a cigarette?"
+
+A merchant is a person. he carries an axe.
+A merchant is here. "A merchant stands by a cart full of axes."
+
+b1ing is an action applying to nothing. understand "Ask merchant for axe" as b1ing.
+after b1ing:
+	say "Here, have an axe, on me! just promise to go chop down some trees for me, OK?";
+	move the axe to the player.
+
 
 Chapter 2 - The Cave       
 
@@ -189,7 +213,7 @@ after j6ing:
   say "there are a bunch of vegetables in the cauldron. looks like it could use some ginger though";
   increment the score.
 
-j7ing is an action applying to nothing. Understand "put ginger in caludron" as j7ing.
+j7ing is an action applying to nothing. Understand "put ginger in cauldron" as j7ing.
 
 after j7ing:
   say "the veggie soup is complete now. time to light the fire.";
@@ -225,7 +249,7 @@ after waiting:
 j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 
 after j4ing:
-  say "You don't see anyting.";
+  say "You don't see anything. are you a vampire?";
   increment the score.
 
 
