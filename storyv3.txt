@@ -2,10 +2,11 @@
 
 an axe is a thing.
 a blood stained sword is a thing.
+a dagger is a thing.
 
 vagabond is a man.
-Knight is a man.
-Macbeth is a man.
+Knight is a man. he is carrying a sword.
+Macbeth is a man. he is carrying a dagger.
 
 [axe actions]
 [----------------------------------]
@@ -40,7 +41,7 @@ After killKnighting for the second time:
 After killKnighting for the third time:
 	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] you pick up the bloodstained sword.";
 		now the player has a sword;
-		now the knight is nowhere;
+		now the knight is in The Village;
 		now the axe is nowhere;
 		increase the score by 20.
 [-------------------------------------------------------------]
@@ -53,32 +54,86 @@ After killMacing:
 after killMacing for the second time:
 	say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. his kidney and intestines slide out. [line break] The king is dead. now you are king.";
 		now Macbeth is nowhere;
-			increase the score by 50.
+		increase the score by 50.
 [-----------------------------------------]
 
 [end axe actions]
 
 [bloodstained sword actions]
 
+[-------------------------]
+
 stabbing is an action applying to two things. Understand "Stab [someone] with [sword]" as stabbing.
 after stabbing vagabond:
-	say "The vagabond cowers in horror at your approach. You show no mercy. With a quick thrust, you plunge the sword through his diaphragm, and then rip it out. [line break] 'AAAAHHHHHH!' [line break] The vagabond clutches his chest; blood bursts forth through his gnarled fingers. he collapses, gasping, to no effect, for the vacuum created by expanding his diaphram no longer works and as such, he can no longer breathe. [line break] you stand over him, laughing at his misery. he suffocates and dies.";
-	now the vagabond is nowhere;
+	say "The vagabond cowers in horror at your approach. You show no mercy. With a quick thrust, you plunge the sword through his diaphragm, and then rip it out. [line break] 'AAAAHHHHHH!' [line break] The vagabond clutches his chest; blood bursts forth through his gnarled fingers. he collapses, gasping, to no effect, for the vacuum created by expanding his diaphram no longer works and as such, he can no longer breathe. [line break] you stand over him, laughing at his misery.";
 	increase the score by 10.
 	
+after stabbing vagabond for the second time:
+	say "you raise your sword and with a mighty slash, you vivisect the vagabond. his internals spill out onto the floor. His heart still twitches, hanging by the main arteries. You step on it. [line break] The vagabond dies.";
+	now the vagabond is nowhere;
+	increase the score by 10.
+[---------------------------------------]	
+
+instead of stabbing knight:
+	say "he is heavily armored. this isn't going to work."
+	
+	[-----------------------------------]
+	
+after stabbing Macbeth:
+	say "You approach Macbeth in a gentle manner. What seems to be troubling you, my king? the king turns, and you slash off his right arm. Awesome! [line break] Macbeth screams in agony, and clutches the pulsing stump where his arm once was, his eyes filled with horror.";
+	increase the score by 20.
+
+after stabbing Macbeth for the second time:
+	say "Macbeth turns to run. You swing your sword into his right side. The sword bounces off his rib cage, slicing through his abdominal muscles. now off balanced, Macbeth stumbles and falls.";
+	increase the score by 10.
+
+after stabbing Macbeth for the third time:
+	say "you smash the heel of your boot into his back. his face smacks into the floor. you plunge your sword through his left shoulder, into the ground. he is now pinned. You draw his dagger from his sheath.";
+	now the player has a dagger;
+	now the sword is nowhere;
+	increase the score by 20.
+	
+	[---------------------]
+
+after shanking vagabond:
+	say "you approach the vagabond, pretending to be lost and seeking directions. before he can open his mouth you draw the knife. he jumps back, but his back is to the wall. Your fist slams into his nose, and he instinctively reaches up to protect himself. Then, seizing the opportunity, you plunge the knife into his groin. The vagabond falls to the ground.";
+	increase the score by 10.
+
+after shanking vagabond for the second time:
+	say "you straddle the vagabond, holding the knife with the blade facing down, towards your elbow. You plunge the knife into his back. He groans. You rip the knife out and slam it back in to his torso another twelve times. you stand in a pool of blood. the vagabond is dead.";
+	increase the score by 10;
+	now the vagabond is nowhere.
+[--------------------------------]
 
 [end bloodstained sword actions]
+
+[dagger actions]
+
+shanking is an action applying to two things. Understand "shank [someone] with [dagger]" as shanking.
+
+[-----------------]
+instead of shanking Knight:
+	say "the knight is heavily armored, that isn't going to to work."
+[---------------------]
+
+after shanking Macbeth:
+	say "you grab a handful of Macbeth's hair and pull his head back. You place the blade across his throat, at the jawbone and slice into his neck. You then RIP the blade across his throat, severing his spine. [line break] you are in a pool of blood. [line break] Macbeth head flaps back, still attached to his body by the neck muscle. you slash through it. [line break] you stand, the king's head in your hand. You are king now. ";
+	now Macbeth is nowhere;
+	increase the score by 40.
+
+[end dagger actions]
 
 Chapter 1 - Into the Jungle
 
 When play begins: 
+say " author's note: for objects, 'hit <someone> with axe', for sword, 'stab <someone>', for dagger, 'shank <someone>'";
 now the score is 0;
  say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
 
 use scoring.
 Every turn:
   if the score is  at least 115,
-    end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was wierd. no more benadryl before bed".
+    end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was weird. no more benadryl before bed".
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
 The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
@@ -233,7 +288,7 @@ Chapter 3 - The Village
 
 The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore. You see a big field to the east. To the south is a cave."
 
-Knight is in The Village.
+ Knight is in The Village.
 
 After examining Knight:
 	say "if he is a knight, who is his king?"
@@ -345,4 +400,5 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 200.
+
 
