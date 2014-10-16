@@ -1,13 +1,77 @@
 "theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey,  anderson chan"
 
 an axe is a thing.
-a sword is a thing.
+a blood stained sword is a thing.
 
+vagabond is a man.
+Knight is a man.
+Macbeth is a man.
+
+[axe actions]
+[----------------------------------]
 chopping is an action applying to two things. understand "chop [tree] with [axe]" as chopping.
+
+after chopping:
+	say "you chop down the tree [line break] as the tree falls, you experience a thrill like no other. but there are no more trees. Perhaps there are other things to chop?";
+		now the tree is nowhere;
+		increase the score by 5.
+[------------------------------------]
+manslaughtering is an action applying to two things. Understand "hit [vagabond] with [axe]" as manslaughtering.
+
+after manslaughtering:
+	say "you grip you axe with both hands and approach the vagabond. [line break] 'GET AWAY FROM ME' [line break] his back is against the wall. you raise the axe and swing it with all your might. It lands squarely in his rib cage, which splits under the weight of the axe. [line break] '*SCREAM OF AGONY*' [line break] This is quite grisly. the man is covered in blood and his shattered ribs are protruding through his skin at all angles. he lies on the floor. he is still alive.";
+		increase the score by 5.
+			
+after manslaughtering for the second time: 
+	say "gritting your teeth, you  raise the axe above your head. You look the man in the eye. FUCK YOU. you slam the axe into his forehead. [line break] the vagabond is dead.";
+		now the vagabond is nowhere;
+		increase the score by 10.
+[------------------------------------]
+killKnighting is an action applying to two things. Understand "hit [Knight] with [axe]" as killKnighting.
+
+After killKnighting:
+	say "You grip the axe with both hands and take a wide stance. [line break] 'HALT!' the knight draws his sword. [line break] you swing low. your axe smashes into the knight's left knee. the armor does not hold and his knee bends inward, barely slowing the axe down. his legs buckle together and under the weight of the axe, his right leg bone snaps. [line break] good swing! [line break] The knight pivots on his off hand, savagely brandishing his sword.";
+		increase the score by 5.
+			
+After killKnighting for the second time:
+	say "You raise your axe again. The knight, sensing he is not in a good place, decides to ask for mercy.[line break] 'Wait, Wait, whatever i did i'm sorry! please don't hit me again, i have a family! [line break] You pause. you consider letting the knight live. Your heart races, your palms are sweaty, and your veins are swelling with adrenaline. this feels good. You try to focus on the matter at hand, whether or not to space the knight, but you feel a strong impulse to finish the job. [line break] You say, 'i will let you live if you drop your weapon.' the knight obliges. you rotate your axe 90 degrees in your hands. now the flat back end, opposite the blade, is facing the knight. you swing the hammer end down upon the knight's head. [line break] 'AAAHHHHH!' [line break] the helmet crumples under the weight of the hammer. the knight groans and falls to his side, apparently unconscious. he is breathing faintly.";
+		increase the score by 5.
+
+After killKnighting for the third time:
+	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] you pick up the bloodstained sword.";
+		now the player has a sword;
+		now the knight is nowhere;
+		now the axe is nowhere;
+		increase the score by 20.
+[-------------------------------------------------------------]
+killMacing is an action applying to two things. Understand "hit [Macbeth] with [axe]" as killMacing.
+
+After killMacing:
+	say "You grip your axe with both hands. you do an upswing which you quickly bring down as soon as the axe rises above shoulder level. It works, Macbeth is caught off guard. you slam the axe into Macbeth's shoulder, in the middle of his right clavicle. [line break] his clavicle shatters and his ribcage cracks. If you were any more to the left, you would have chopped his arm off completely. Blood erupts from the wound, covering the both of you. Macbeth becomes very pale. His eyes widen, as though they would pop from his head. A look of shock takes him over. you pull back and rip the axe from his body. [line break] 'AAAAAHHHHHHH! HELP, SOMEBODY HELP ME!!!!!!!!' [line break] that's more like it, it would be no fun if he was quiet.";
+			increase the score by 20.
+					
+after killMacing for the second time:
+	say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. his kidney and intestines slide out. [line break] The king is dead. now you are king.";
+		now Macbeth is nowhere;
+			increase the score by 50.
+[-----------------------------------------]
+
+[end axe actions]
+
+[bloodstained sword actions]
+
+stabbing is an action applying to two things. Understand "Stab [someone] with [sword]" as stabbing.
+after stabbing vagabond:
+	say "The vagabond cowers in horror at your approach. You show no mercy. With a quick thrust, you plunge the sword through his diaphragm, and then rip it out. [line break] 'AAAAHHHHHH!' [line break] The vagabond clutches his chest; blood bursts forth through his gnarled fingers. he collapses, gasping, to no effect, for the vacuum created by expanding his diaphram no longer works and as such, he can no longer breathe. [line break] you stand over him, laughing at his misery. he suffocates and dies.";
+	now the vagabond is nowhere;
+	increase the score by 10.
+	
+
+[end bloodstained sword actions]
 
 Chapter 1 - Into the Jungle
 
-When play begins:
+When play begins: 
 now the score is 0;
  say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
 
@@ -50,13 +114,6 @@ Before going from The Cabin to The Jungle for the first time:
 The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. there are hanging vines which you could climb up, and there is a deer path heading north."
 
 A tree is here.
-
-
-
-after chopping:
-	say "you chop down the tree [line break] as the tree falls, you experience a thrill like no other. but there are no more trees. Perhaps there are other things to chop?";
-	now the tree is nowhere;
-	increase the score by 5.
 
 A edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
 
@@ -109,22 +166,10 @@ a pickle is here.
 a helmet is here.
 a statue is here.
 
-vagabond is a man.
 A vagabond is in The Cave. "you see a haggard old vagabond. no one would miss him."
 
 after examining vagabond:
 	say "you should totally chop him up with an axe."
-	
-manslaughtering is an action applying to two things. Understand "hit [vagabond] with [axe]" as manslaughtering.
-
-after manslaughtering:
-	say "you grip you axe with both hands and approach the vagabond. [line break] 'GET AWAY FROM ME' [line break] his back is against the wall. you raise the axe and swing it with all your might. It lands squarely in his rib cage, which splits under the weight of the axe. [line break] '*SCREAM OF AGONY*' [line break] This is quite grisly. the man is covered in blood and his shattered ribs are protruding through his skin at all angles. he lies on the floor. he is still alive.";
-	increase the score by 5.
-	
-after manslaughtering for the second time: 
-	say "gritting your teeth, you  raise the axe above your head. You look the man in the eye. FUCK YOU. you slam the axe into his forehead. [line break] the vagabond is dead.";
-	now the vagabond is nowhere;
-	increase the score by 10.
 
 fooing is an action applying to nothing. understand "exit Cave"  as fooing.
 
@@ -199,23 +244,6 @@ After a5ing:
   say "The knight replies: BACK THE FUCK UP BEFORE YOU GET SMACKED THE FUCK UP!";
   increment the score.
 
-killKnighting is an action applying to two things. Understand "hit [Knight] with [axe]" as killKnighting.
-
-After killKnighting:
-	say "You grip the axe with both hands and take a wide stance. [line break] 'HALT!' the knight draws his sword. [line break] you swing low. your axe smashes into the knight's left knee. the armor does not hold and his knee bends inward, barely slowing the axe down. his legs buckle together and under the weight of the axe, his right leg bone snaps. [line break] good swing! [line break] The knight pivots on his off hand, savagely brandishing his sword.";
-	increase the score by 5.
-	
-After killKnighting for the second time:
-	say "You raise your axe again. The knight, sensing he is not in a good place, decides to ask for mercy.[line break] 'Wait, Wait, whatever i did i'm sorry! please don't hit me again, i have a family! [line break] You pause. you consider letting the knight live. Your heart races, your palms are sweaty, and your veins are swelling with adrenaline. this feels good. You try to focus on the matter at hand, whether or not to space the knight, but you feel a strong impulse to finish the job. [line break] You say, 'i will let you live if you drop your weapon.' the knight obliges. you rotate your axe 90 degrees in your hands. now the flat back end, opposite the blade, is facing the knight. you swing the hammer end down upon the knight's head. [line break] 'AAAHHHHH!' [line break] the helmet crumples under the weight of the hammer. the knight groans and falls to his side, apparently unconscious. he is breathing faintly.";
-	increase the score by 5.
-
-After killKnighting for the third time:
-	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead.";
-	now the knight is nowhere;
-	now the axe is nowhere;
-	now there is a sword;
-	increase the score by 20.
-
  
 a syringe is here. "there is a needle in the gutter" 
 
@@ -271,17 +299,6 @@ After j5ing:
   say "Macbeth replies: All the perfumes in arabia could not sweeten this little hand. *he cries* Oh what have i done, killing my king! boo hoo hoo";
   increment the score.
 
-killMacing is an action applying to two things. Understand "hit [Macbeth] with [axe]" as killMacing.
-
-After killMacing:
-	say "You grip your axe with both hands. you do an upswing which you quickly bring down as soon as the axe rises above shoulder level. It works, Macbeth is caught off guard. you slam the axe into Macbeth's shoulder, in the middle of his right clavicle. [line break] his clavicle shatters and his ribcage cracks. If you were any more to the left, you would have chopped his arm off completely. Blood erupts from the wound, covering the both of you. Macbeth becomes very pale. His eyes widen, as though they would pop from his head. A look of shock takes him over. you pull back and rip the axe from his body. [line break] 'AAAAAHHHHHHH! HELP, SOMEBODY HELP ME!!!!!!!!' [line break] that's more like it, it would be no fun if he was quiet.";
-		increase the score by 20.
-		
-after killMacing for the second time:
-	say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. his kidney and intestines slide out. [line break] The king is dead. now you are king.";
-	now Macbeth is nowhere;
-	increase the score by 50.
-
 A cauldron is here. "You see a big stone Cauldron."
 
 j6ing is an action applying to nothing. Understand "open cauldron" as j6ing.
@@ -328,5 +345,4 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 200.
-
 
