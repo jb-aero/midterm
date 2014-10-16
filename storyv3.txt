@@ -426,4 +426,3 @@ after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 1.
 
-
