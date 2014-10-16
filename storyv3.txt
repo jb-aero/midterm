@@ -98,6 +98,28 @@ after entering The Cave:
 
 The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
 
+a pickle is an animal.
+a pickle is here.
+a helmet is here.
+a statue is here.
+
+vagabond is a man.
+A vagabond is in The Cave. "you see a haggard old vagabond. no one would miss him."
+
+after examining vagabond:
+	say "you should totally chop him up with an axe."
+	
+manslaughtering is an action applying to two things. Understand "hit [vagabond] with [axe]" as manslaughtering.
+
+after manslaughtering:
+	say "you grip you axe with both hands and approach the vagabond. [line break] 'GET AWAY FROM ME' [line break] his back is against the wall. you raise the axe and swing it with all your might. It lands squarely in his rib cage, which splits under the weight of the axe. [line break] '*SCREAM OF AGONY*' [line break] This is quite grisly. the man is covered in blood and his shattered ribs are protruding through his skin at all angles. he lies on the floor. he is still alive.";
+	increase the score by 5.
+	
+after manslaughtering for the second time: 
+	say "gritting your teeth, you  raise the axe above your head. You look the man in the eye. FUCK YOU. you slam the axe into his forehead. [line break] the vagabond is dead.";
+	now the vagabond is nowhere;
+	increase the score by 10.
+
 fooing is an action applying to nothing. understand "exit Cave"  as fooing.
 
 after fooing:
@@ -115,12 +137,6 @@ a2ing is an action applying to nothing. understand "Attach Helmet To Statue" as 
 after a2ing:
   say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then, the helmet falls off the statue, and lands with a resounding clang";
   increment the score.
-
-
-a pickle is an animal.
-a pickle is here.
-a helmet is here.
-a statue is here.
 
 The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
 
