@@ -47,6 +47,7 @@ After killKnighting for the third time:
 	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] you pick up the bloodstained sword.";
 		now the player has a sword;
 		now the axe is nowhere;
+		now the Knight is nowhere;
 		increase the score by 20.
 [-------------------------------------------------------------]
 killMacing is an action applying to two things. Understand "hit [Macbeth] with [axe]" as killMacing.
