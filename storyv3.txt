@@ -117,7 +117,7 @@ instead of shanking Knight:
 [---------------------]
 
 after shanking Macbeth:
-	say "you grab a handful of Macbeth's hair and pull his head back. You place the blade across his throat, at the jawbone and slice into his neck. You then RIP the blade across his throat, severing his spine. [line break] you are in a pool of blood. [line break] Macbeth head flaps back, still attached to his body by the neck muscle. you slash through it. [line break] you stand, the king's head in your hand. You are king now. ";
+	say "you grab a handful of Macbeth's hair and pull his head back. You place the blade across his throat, at the jawbone and slice into his neck. You then RIP the blade across his throat, severing his spine. [line break] you are in a pool of blood. [line break] Macbeth head flaps back, still attached to his body by the neck muscle. you slash through it. [line break] you stand, the King's head in your hand. You are king now. ";
 	now Macbeth is nowhere;
 	increase the score by 40.
 
@@ -126,13 +126,13 @@ after shanking Macbeth:
 Chapter 1 - Into the Jungle
 
 When play begins: 
-say " author's note: for objects, 'hit <someone> with axe', for sword, 'stab <someone>', for dagger, 'shank <someone>'";
+say " author's note: for using objects: axe, 'hit <someone> with axe', 'chop tree with axe',  for sword, 'stab <someone>', for dagger, 'shank <someone>'[line break] [line break]";
 now the score is 0;
- say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type]".
+ say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type] [line break]".
 
 use scoring.
 Every turn:
-  if the score is  at least 115,
+  if the score is  at least 150,
     end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was weird. no more benadryl before bed".
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
@@ -186,7 +186,7 @@ Before going east when the player is in the Jungle:
 
 before going Up:
   increment score;
-  say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA"
+  say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA [line break]"
 
 Canopy is a room.Canopy is above The Jungle. "The vine leads  up to a tree branch, from which you can step on to a plateau. This is a surprise because through the dense jungle, you could never have seen the rock formation on which you now stand. At your new height, you can see a village to the north. to the east is a cave. perhaps you should go take a look..." 
 
@@ -400,5 +400,6 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 200.
+
 
 
