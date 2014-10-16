@@ -1,4 +1,4 @@
-"theStory" by "Tyler Dallwig, Stuart Woodbury, and two jerks who did nothing....Jim Bilbrey,  anderson chan"
+"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey,  anderson chan"
 
 an axe is a thing.
 a blood stained sword is a thing.
@@ -47,6 +47,7 @@ After killKnighting for the third time:
 	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] you pick up the bloodstained sword.";
 		now the player has a sword;
 		now the axe is nowhere;
+		now the Knight is in The Village;
 		increase the score by 20.
 [-------------------------------------------------------------]
 killMacing is an action applying to two things. Understand "hit [Macbeth] with [axe]" as killMacing.
@@ -315,7 +316,7 @@ The Village  is a room. The Village is west of Prison Lawn. "The village is a na
  Knight is in The Village.
 
 After examining Knight:
-	say "if he is a knight, who is his king?[line break] "
+	say "if he is a knight, who is his king?"
 
 a5ing is an action applying to nothing. Understand "say xyzzy to Knight" as a5ing.
 
@@ -424,8 +425,5 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 1.
-
-
-
 
 
