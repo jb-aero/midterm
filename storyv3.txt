@@ -1,4 +1,4 @@
-"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey"
+"theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey, andrew dallwig, anderson chan"
 
 Chapter 1 - Into the Jungle
 
@@ -9,7 +9,7 @@ now the score is 0;
 use scoring.
 Every turn:
   if the score is 28,
-    end the story finally.
+    end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was wierd. no more benadryl before bed".
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
 The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of The Cabin. The Cabin Door is west of The Jungle. 
@@ -77,7 +77,7 @@ The Cave is a room. The Cave is south of the Village. "It's very dark in here. P
 fooing is an action applying to nothing. understand "exit Cave"  as fooing.
 
 after fooing:
-  say "That will never happen. do what you have to do and then go north.";
+  say "You make an attempt to exit the cave, but cannot find the entrance. this makes absolutely no sense. you can, however, discern that there is another exit to the north.";
   increment the score.
 
 a1ing is an action applying to nothing. understand "Put Edelweiss In Fire" as a1ing.
@@ -115,6 +115,9 @@ after a4ing:
 After waiting:
   increment the score.
 
+After waiting for the second time:
+  say "Turns out that noise was just part of the cave collapsing. there is no telling how long the structure will hold."
+
 after going north:
   increment the score.
 
@@ -132,7 +135,13 @@ After a5ing:
 
 a syringe is here. "there is a needle in the gutter" 
 
+After examining syringe:
+  say "a small syringe with an orange piece of plastic. no doubt it was intended for diabetics. but the tip is totally dull. it looks more like a hole punch. it doesn't look like this thing was in the possession of a diabetic."
+
 a jail is here. "A large brick building looms over the side streets" 
+
+after examining jail:
+  say "what do you call a big house full of <insert ethnicity here>? ... you chuckle"
 
 a3ing is an action applying to nothing. understand "Ponder The Meaning of Life" as a3ing.
 
@@ -153,6 +162,7 @@ After taking duck:
   increment the score.
 
 After eating duck:
+  say "you pick up the duck from behind and hold it firmly. It has no idea you are about to destroy it. You clamp your teeth around the neck of the duck, and bite down hard. the duck immediately begins to kick and struggle. It quacks in distress. it's vertebrae crack under the force of your jaw. The duck quacks. how quaint. You finally bite through the vertebrae and then rip the duck's head off, and spit it on the ground. you hold the duck up above your mouth and squeeze it. It's guts pour out through it's neck. A tasty meal.";
   increment the score.
 
 After going north: 
@@ -161,7 +171,7 @@ After going north:
 Chapter 5 - The Dungeon
 
 
-The Dungeon is a room. The  Dungeon is north of Prison Lawn. "Here is the magic dungeon. maybe here you can find a way to get out of this nasty dream."
+The Dungeon is a room. The  Dungeon is north of Prison Lawn. "The dungeon is just four walls with a roof over it. along the walls are shackles with dead bodies at various stages of decay. there is a big cauldron in the middle, with a fire under the cauldron. You wonder why the prison managers are letting all this good meat go to waste."
 
 Macbeth is in The Dungeon.
 
@@ -217,6 +227,10 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "You don't see anyting.";
   increment the score.
+
+
+
+
 
 
 
