@@ -1,50 +1,58 @@
 "theStory" by "Tyler Dallwig, Stuart Woodbury, Jim Bilbrey,  anderson chan"
 
-an axe is a thing.
-a blood stained sword is a thing.
-a dagger is a thing.
+[To the grader, there are several intended ways to win. The generous number of points given is to allow victory by exploring the world as much as possible.]
 
-a cigarette is a thing.
+Use scoring.
+
+An axe is a thing.
+A blood stained sword is a thing.
+A dagger is a thing.
+
+A cigarette is a thing.
 
 A camel is an animal.
-a pickle is an animal.
+A pickle is an animal.
 
 vagabond is a man.
-Knight is a man. he is carrying a sword.
-Macbeth is a man. he is carrying a dagger.
+Knight is a man. He is carrying a sword.
+Macbeth is a man. He is carrying a dagger.
+
+Hands are a thing.
+Hands are part of the player.
+Hands can be clean, greasy, or greasetastic.
 
 [axe actions]
 [----------------------------------]
-chopping is an action applying to two things. understand "chop [tree] with [axe]" as chopping.
+Chopping is an action applying to two things. Understand "chop [tree] with [axe]" as chopping.
 
 after chopping:
-	say "you chop down the tree [line break] as the tree falls, you experience a thrill like no other. but there are no more trees. Perhaps there are other things to chop?";
-		now the tree is nowhere;
-		increase the score by 5.
+	Say "You chop down the tree [line break] as the tree falls, you experience a thrill like no other. But there are no more trees. Perhaps there are other things to chop?";
+	Now the tree is nowhere;
+	Increase the score by 5.
 [------------------------------------]
 manslaughtering is an action applying to two things. Understand "hit [vagabond] with [axe]" as manslaughtering.
 
 after manslaughtering:
-	say "you grip you axe with both hands and approach the vagabond. [line break] 'GET AWAY FROM ME' [line break] his back is against the wall. you raise the axe and swing it with all your might. It lands squarely in his rib cage, which splits under the weight of the axe. [line break] '*SCREAM OF AGONY*' [line break] This is quite grisly. the man is covered in blood and his shattered ribs are protruding through his skin at all angles. he lies on the floor. he is still alive.";
+	Say "You grip you axe with both hands and approach the vagabond. [line break] 'GET AWAY FROM ME' [line break] His back is against the wall. You raise the axe and swing it with all your might. It lands squarely in his rib cage, which splits under the weight of the axe. [line break] '*SCREAM OF AGONY*' [line break] This is quite grisly. the man is covered in blood and his shattered ribs are protruding through his skin at all angles. He lies on the floor. he is still alive.";
 		increase the score by 5.
 			
 after manslaughtering for the second time: 
-	say "gritting your teeth, you  raise the axe above your head. You look the man in the eye. FUCK YOU. you slam the axe into his forehead. [line break] the vagabond is dead.";
+	Say "Gritting your teeth, you raise the axe above your head. You look the man in the eye. FUCK YOU. You slam the axe into his forehead. [line break] The vagabond is dead.";
 		now the vagabond is nowhere;
 		increase the score by 10.
 [------------------------------------]
 killKnighting is an action applying to two things. Understand "hit [Knight] with [axe]" as killKnighting.
 
 After killKnighting:
-	say "You grip the axe with both hands and take a wide stance. [line break] 'HALT!' the knight draws his sword. [line break] you swing low. your axe smashes into the knight's left knee. the armor does not hold and his knee bends inward, barely slowing the axe down. his legs buckle together and under the weight of the axe, his right leg bone snaps. [line break] good swing! [line break] The knight pivots on his off hand, savagely brandishing his sword.";
+	Say "You grip the axe with both hands and take a wide stance. [line break] 'HALT!' the knight draws his sword. [line break] You swing low. Your axe smashes into the knight's left knee. The armor does not hold and his knee bends inward, barely slowing the axe down. His legs buckle together and under the weight of the axe, his right leg bone snaps. [line break] Good swing! [line break] The knight pivots on his off hand, savagely brandishing his sword.";
 		increase the score by 5.
 			
 After  killKnighting for the second time:
-	say "You raise your axe again. The knight, sensing he is not in a good place, decides to ask for mercy.[line break] 'Wait, Wait, whatever i did i'm sorry! please don't hit me again, i have a family! [line break] You pause. you consider letting the knight live. Your heart races, your palms are sweaty, and your veins are swelling with adrenaline. this feels good. You try to focus on the matter at hand, whether or not to space the knight, but you feel a strong impulse to finish the job. [line break] You say, 'i will let you live if you drop your weapon.' the knight obliges. you rotate your axe 90 degrees in your hands. now the flat back end, opposite the blade, is facing the knight. you swing the hammer end down upon the knight's head. [line break] 'AAAHHHHH!' [line break] the helmet crumples under the weight of the hammer. the knight groans and falls to his side, apparently unconscious. he is breathing faintly.";
+	Say "You raise your axe again. The knight, sensing he is not in a good place, decides to ask for mercy.[line break] 'Wait, Wait, whatever i did i'm sorry! please don't hit me again, i have a family! [line break] You pause. you consider letting the knight live. Your heart races, your palms are sweaty, and your veins are swelling with adrenaline. This feels good. You try to focus on the matter at hand, whether or not to space the knight, but you feel a strong impulse to finish the job. [line break] You say, 'I will let you live if you drop your weapon.' The knight obliges. you rotate your axe 90 degrees in your hands. now the flat back end, opposite the blade, is facing the knight. You swing the hammer end down upon the knight's head. [line break] 'AAAHHHHH!' [line break] The helmet crumples under the weight of the hammer. The knight groans and falls to his side, apparently unconscious. He is breathing faintly.";
 		increase the score by 5.
 
 After killKnighting for the third time:
-	say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] you raise your axe again and slam it into this mouth. the axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] you pick up the bloodstained sword.";
+	Say "You remove the knight's helmet. his forehead is badly bruised. his nose is broken, and as the helmet pulls over his face, a few teeth dribble out of his mouth. [line break] You raise your axe again and slam it into this mouth. The axe blade goes through the back of the knight's neck and cuts his head off completely. Unfortunately, the axe blade hits a rock and breaks. [line break] The Knight is Dead. [line break] You pick up the bloodstained sword.";
 		now the player has a sword;
 		now the axe is nowhere;
 		now the Knight is nowhere;
@@ -53,13 +61,13 @@ After killKnighting for the third time:
 killMacing is an action applying to two things. Understand "hit [Macbeth] with [axe]" as killMacing.
 
 After killMacing:
-	say "You grip your axe with both hands. you do an upswing which you quickly bring down as soon as the axe rises above shoulder level. It works, Macbeth is caught off guard. you slam the axe into Macbeth's shoulder, in the middle of his right clavicle. [line break] his clavicle shatters and his ribcage cracks. If you were any more to the left, you would have chopped his arm off completely. Blood erupts from the wound, covering the both of you. Macbeth becomes very pale. His eyes widen, as though they would pop from his head. A look of shock takes him over. you pull back and rip the axe from his body. [line break] 'AAAAAHHHHHHH! HELP, SOMEBODY HELP ME!!!!!!!!' [line break] that's more like it, it would be no fun if he was quiet.";
-			increase the score by 20.
+	Say "You grip your axe with both hands. you do an upswing which you quickly bring down as soon as the axe rises above shoulder level. It works, Macbeth is caught off guard. You slam the axe into Macbeth's shoulder, in the middle of his right clavicle. [line break] His clavicle shatters and his ribcage cracks. If you were any more to the left, you would have chopped his arm off completely. Blood erupts from the wound, covering the both of you. Macbeth becomes very pale. His eyes widen, as though they would pop from his head. A look of shock takes him over. you pull back and rip the axe from his body. [line break] 'AAAAAHHHHHHH! HELP, SOMEBODY HELP ME!!!!!!!!' [line break] That's more like it, it would be no fun if he was quiet.";
+	Increase the score by 20.
 					
 after killMacing for the second time:
-	say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. his kidney and intestines slide out. [line break] The king is dead. now you are king.";
-		now Macbeth is nowhere;
-		increase the score by 50.
+	Say "You swing horozontally, and make contact. The axe slams into Macbeth's side, in between his hip and his rib cage. He crumples sideways; both his feet lift off the ground and he is carried with the axe for the duration of the swing, after which he falls to the floor. His kidney and intestines slide out. [line break] The king is dead. Now you are king.";
+	Now Macbeth is nowhere;
+	Increase the score by 50.
 [-----------------------------------------]
 
 [end axe actions]
@@ -68,81 +76,81 @@ after killMacing for the second time:
 
 [-------------------------]
 
-stabbing is an action applying to two things. Understand "Stab [someone] with [sword]" as stabbing.
-after stabbing vagabond:
-	say "The vagabond cowers in horror at your approach. You show no mercy. With a quick thrust, you plunge the sword through his diaphragm, and then rip it out. [line break] 'AAAAHHHHHH!' [line break] The vagabond clutches his chest; blood bursts forth through his gnarled fingers. he collapses, gasping, to no effect, for the vacuum created by expanding his diaphram no longer works and as such, he can no longer breathe. [line break] you stand over him, laughing at his misery.";
-	increase the score by 10.
+Stabbing is an action applying to two things. Understand "Stab [someone] with [sword]" as stabbing.
+
+After stabbing vagabond:
+	Say "The vagabond cowers in horror at your approach. You show no mercy. With a quick thrust, you plunge the sword through his diaphragm, and then rip it out. [line break] 'AAAAHHHHHH!' [line break] The vagabond clutches his chest; blood bursts forth through his gnarled fingers. He collapses, gasping, to no effect, for the vacuum created by expanding his diaphram no longer works and as such, he can no longer breathe. [line break] You stand over him, laughing at his misery.";
+	Increase the score by 10.
 	
-after stabbing vagabond for the second time:
-	say "you raise your sword and with a mighty slash, you vivisect the vagabond. his internals spill out onto the floor. His heart still twitches, hanging by the main arteries. You step on it. [line break] The vagabond dies.";
-	now the vagabond is nowhere;
-	increase the score by 10.
+After stabbing vagabond for the second time:
+	Say "You raise your sword and with a mighty slash, you vivisect the vagabond. His internals spill out onto the floor. His heart still twitches, hanging by the main arteries. You step on it. [line break] The vagabond dies.";
+	Now the vagabond is nowhere;
+	Increase the score by 10.
 [---------------------------------------]	
 
-instead of stabbing knight:
-	say "he is heavily armored. this isn't going to work."
+Instead of stabbing knight:
+	Say "he is heavily armored. this isn't going to work."
 	
 	[-----------------------------------]
 	
-after stabbing Macbeth:
-	say "You approach Macbeth in a gentle manner. What seems to be troubling you, my king? the king turns, and you slash off his right arm. Awesome! [line break] Macbeth screams in agony, and clutches the pulsing stump where his arm once was, his eyes filled with horror.";
-	increase the score by 20.
+After stabbing Macbeth:
+	Say "You approach Macbeth in a gentle manner. What seems to be troubling you, my king? The king turns, and you slash off his right arm. Awesome! [line break] Macbeth screams in agony, and clutches the pulsing stump where his arm once was, his eyes filled with horror.";
+	Increase the score by 20.
 
-after stabbing Macbeth for the second time:
-	say "Macbeth turns to run. You swing your sword into his right side. The sword bounces off his rib cage, slicing through his abdominal muscles. now off balanced, Macbeth stumbles and falls.";
-	increase the score by 10.
+After stabbing Macbeth for the second time:
+	Say "Macbeth turns to run. You swing your sword into his right side. The sword bounces off his rib cage, slicing through his abdominal muscles. Now off balanced, Macbeth stumbles and falls.";
+	Increase the score by 10.
 
-after stabbing Macbeth for the third time:
-	say "you smash the heel of your boot into his back. his face smacks into the floor. you plunge your sword through his left shoulder, into the ground. he is now pinned. You draw his dagger from his sheath.";
-	now the player has a dagger;
-	now the sword is nowhere;
-	increase the score by 20.
+After stabbing Macbeth for the third time:
+	Say "You smash the heel of your boot into his back. His face smacks into the floor. You plunge your sword through his left shoulder, into the ground. He is now pinned. You draw his dagger from his sheath.";
+	Now the player has a dagger;
+	Now the sword is nowhere;
+	Increase the score by 20.
 	
 	[---------------------]
 
-after shanking vagabond:
-	say "you approach the vagabond, pretending to be lost and seeking directions. before he can open his mouth you draw the knife. he jumps back, but his back is to the wall. Your fist slams into his nose, and he instinctively reaches up to protect himself. Then, seizing the opportunity, you plunge the knife into his groin. The vagabond falls to the ground.";
-	increase the score by 10.
+After shanking vagabond:
+	Say "You approach the vagabond, pretending to be lost and seeking directions. before he can open his mouth you draw the knife. He jumps back, but his back is to the wall. Your fist slams into his nose, and he instinctively reaches up to protect himself. Then, seizing the opportunity, you plunge the knife into his groin. The vagabond falls to the ground.";
+	Increase the score by 10.
 
-after shanking vagabond for the second time:
-	say "you straddle the vagabond, holding the knife with the blade facing down, towards your elbow. You plunge the knife into his back. He groans. You rip the knife out and slam it back in to his torso another twelve times. you stand in a pool of blood. the vagabond is dead.";
-	increase the score by 10;
-	now the vagabond is nowhere.
+After shanking vagabond for the second time:
+	Say "You straddle the vagabond, holding the knife with the blade facing down, towards your elbow. You plunge the knife into his back. He groans. You rip the knife out and slam it back in to his torso another twelve times. you stand in a pool of blood. The vagabond is dead.";
+	Increase the score by 10;
+	Now the vagabond is nowhere.
 [--------------------------------]
 
 [end bloodstained sword actions]
 
 [dagger actions]
 
-shanking is an action applying to two things. Understand "shank [someone] with [dagger]" as shanking.
+Shanking is an action applying to two things. Understand "shank [someone] with [dagger]" as shanking.
 
 [-----------------]
-instead of shanking Knight:
-	say "the knight is heavily armored, that isn't going to to work."
+Instead of shanking Knight:
+	Say "The knight is heavily armored, that isn't going to to work."
 [---------------------]
 
-after shanking Macbeth:
-	say "you grab a handful of Macbeth's hair and pull his head back. You place the blade across his throat, at the jawbone and slice into his neck. You then RIP the blade across his throat, severing his spine. [line break] you are in a pool of blood. [line break] Macbeth head flaps back, still attached to his body by the neck muscle. you slash through it. [line break] you stand, the King's head in your hand. You are king now. ";
-	now Macbeth is nowhere;
-	increase the score by 40.
+After shanking Macbeth:
+	Say "you grab a handful of Macbeth's hair and pull his head back. You place the blade across his throat, at the jawbone and slice into his neck. You then RIP the blade across his throat, severing his spine. [line break] You are in a pool of blood. [line break] Macbeth head flaps back, still attached to his body by the neck muscle. you slash through it. [line break] You stand, the King's head in your hand. You are king now. ";
+	Now Macbeth is nowhere;
+	Increase the score by 40.
 
 [end dagger actions]
 
 Chapter 1 - Into the Jungle
 
 When play begins: 
-say " author's note: for using objects: axe, 'hit <someone> with axe', 'chop tree with axe',  for sword, 'stab <someone>', for dagger, 'shank <someone>'[line break] [line break]";
-now the score is 0;
- say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type] [line break]".
-
-use scoring.
-Every turn:
-  if the score is  at least 150,
-    end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was weird. no more benadryl before bed".
+	Say "Author's note: for using objects: axe, 'hit <someone> with axe', 'chop tree with axe',  for sword, 'stab <someone>', for dagger, 'shank <someone>'[line break] [line break]";
+Now the score is 0;
+	Say "[italic type]You find yourself alone in a small abandoned cabin. You can't recall how you got here. You stand up to observe your surroundings.  It's quiet... too quiet... [roman type] [line break]".
 
 Every turn:
-  if the score is 24,
-    end the story saying "it smells like the soup is ready. you stir the pot and give it a taste. needs meat. [line break] Macbeth approaches. That smells really good! he says. [line break] you grab the back of Macbeth's head and slam his face onto the rim of the cauldron. The hot stone sears his skin. it bubbles. Macbeth screams in pain, but foolishly grabs his face. You take advantage of this opportunity and grab his ankles. with a heave, you lift the king up and he topples over into the cauldron. You close the lid. [line break] [line break] You awake. aww shucks, you didn't get to finish the dream. you hate when that happens. you find yourself ravenously hungry and go downstairs for breakfast.".
+	If the score is  at least 150,
+		End the story saying "You awake, relieved to find yourself in your own bed. You stretch your arms and yawn. You are quite comfortable. AARGH! A giant alligator comes out from under your covers and bites your head off. What the fuck! You scream, as the gators jaws rip your head clean off your shoulders. [line break] You awake for real with a jolt. That was weird. No more benadryl before bed".
+
+Every turn:
+	If the score is 24,
+		End the story saying "It smells like the soup is ready. You stir the pot and give it a taste. needs meat. [line break] Macbeth approaches. That smells really good! He says. [line break] You grab the back of Macbeth's head and slam his face onto the rim of the cauldron. The hot stone sears his skin. it bubbles. Macbeth screams in pain, but foolishly grabs his face. You take advantage of this opportunity and grab his ankles. With a heave, you lift the king up and he topples over into the cauldron. You close the lid. [line break] [line break] You awake. Aww shucks, you didn't get to finish the dream. You hate when that happens. You find yourself ravenously hungry and go downstairs for breakfast.".
 	
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
@@ -151,214 +159,223 @@ The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of 
 A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
 
 After taking the knife for the first time:
-  increment the score;
-  say "Your hand is now greasy. Gross!"
+	Increment the score;
+	Now the hands are greasy;
+	Say "Your hand is now greasy. Gross!";
 
 After dropping the knife:
-  say "Your hand is now even more Greasy!"
+	Now the hands are greasetastic;
+	Say "Your hand is now even more Greasy!";
 
 After eating the knife:
-    say "Yum!"
+	Now the hands are clean;
+	Say "Yum! After eating the knife, you lick the remaining butter off your hands.";
 
-A prism is here.  The description is "Pretty colors"
+A prism is here. The description is "Pretty colors"
 
 After taking the prism for the first time:
-  increment the score.
+	Increment the score.
 
-A ginger is here. it is edible. "A piece of ginger lies on the floor." The description is "That stuff comes from korea."
+A ginger is here. It is edible. "A piece of ginger lies on the floor." The description is "That stuff comes from korea."
 
-Before opening The Door for the first time:
-  increment the score.
+After opening The Door for the first time:
+	Increment the score.
 
-Before going east for the first time:
-  increment the score.
-        
+After going east for the first time:
+	Increment the score.
+		
 Before going from The Cabin to The Jungle for the first time:
-    say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
+	Say "[Italic type] What the? How did I get here, I don't remember coming to a jungle!!"
    
-The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. there are hanging vines which you could climb up, and there is a deer path heading north."
+The Jungle is room. The Jungle is south of Desert. "You enter a dense jungle.  You cannot see very far in front of you, though it seems you would be heading east. It is probably not safe to go that way. There are hanging vines which you could probably climb up, and there is a deer path heading north."
 
-A tree is here.
+A tree is here. The tree is scenery.
 
 A edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
 
-
 After taking the edelweiss for the first time:
- increment score;
-  say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
+	Increment score;
+	Say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
 
 After dropping the edelweiss:
-  say "You draw the flower from your knapsack; letting your hand drop, you release the flower, which floats towards the soil. If only it still had its roots, i could have done a transplant."
+	Say "You draw the flower from your knapsack; letting your hand drop, you release the flower, which floats towards the soil. If only it still had its roots, i could have done a transplant."
 
 Before going east when the player is in the Jungle: 
-    say "You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony as your precious blood gushes onto the soft brown soil. a white man appears. HELP ME! you beg. the man approaches you, procures a knife, and removes your scalp."; 
-       end the story saying "You have died".
+	Say "You fall victim to a bear trap, which clamps over your leg, snapping your femur. you scream in agony as your precious blood gushes onto the soft brown soil. a white man appears. HELP ME! you beg. the man approaches you, procures a knife, and removes your scalp."; 
+	   end the story saying "You have died".
 
-before going Up:
-  say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. hopefully your grip does not slip, from, perchance, your hand being greasy, for surely you would plummet to your death! HAHAHA [line break]"
+Before going Up from the Jungle for the first time:
+	if the hands are greasy:
+		Say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. Your hands slip a few times from the grease, but you just barely manage to get to the top.";
+	otherwise if the hands is greasetastic:
+		Say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. However, your greasy hands lose their hold and you plummet to your death!";
+		End the story saying "You have died by butterfingers.";
+	otherwise:
+		Say "You grasp a thick vine and, pulling down, press the bottoms of your feet into the truck of a tree. putting one hand over the other, you commence to walk up the tree. It is a good thing your hands are not greasy, for surely you would plummet to your death! HAHAHA [line break]";
 
-Canopy is a room.Canopy is above The Jungle. "The vine leads  up to a tree branch, from which you can step on to a plateau. This is a surprise because through the dense jungle, you could never have seen the rock formation on which you now stand. At your new height, you can see a village to the north. to the east is a cave. perhaps you should go take a look..." 
+Canopy is a room. Canopy is above The Jungle. "The vine leads  up to a tree branch, from which you can step on to a plateau. This is a surprise because through the dense jungle, you could never have seen the rock formation on which you now stand. At your new height, you can see a village to the north. to the east is a cave. perhaps you should go take a look..." 
 
-  A bird nest is here.
+A bird nest containing three eggshells is here. It is fixed in place.
 
 Desert is a room. Desert is north of The Jungle. "An arid desert stretches out as far as the eye can see. to your east is a tall rocky ridge line which carries on for miles. it is unclimbable. To the south is the Jungle."
 
 A camel is here. "A thirsty camel stands by a merchant. Looks like the camel has cottonmouth. Why is it smoking a cigarette?"
 
-instead of examining camel:
-	say "you wish you had a cigarette."
+Instead of examining camel:
+	Say "you wish you had a cigarette."
 	
 b2ing is an action applying to nothing. understand "Ask camel for cigarette" as b2ing.
 After b2ing:
-	say "the camel obliges";
-	now the player has a cigarette.
+	Say "the camel obliges";
+	Now the player has a cigarette.
 	
-smoking is an action applying to one thing. understand "smoke [cigarette]" as smoking.
+Smoking is an action applying to one thing. understand "smoke [cigarette]" as smoking.
 
 After smoking:
-	say "you smoke the cigarette. that was really good. you want another one really really bad. you cough a little.";
-	now the cigarette is nowhere.
+	Say "you smoke the cigarette. that was really good. you want another one really really bad. you cough a little.";
+	Now the cigarette is nowhere.
 	
 After smoking for the third time:
-	say "you experience an uncontrollable coughing fit. it doesn't stop. you begin coughing up blood and vomiting. you heave and heave. you run out of vomit but continue to cough up blood and heave. you are coughing too much to breathe and you lose consciousness from lack of oxygen.";
-	end the story saying " you are dead."
+	Say "you experience an uncontrollable coughing fit. it doesn't stop. you begin coughing up blood and vomiting. you heave and heave. you run out of vomit but continue to cough up blood and heave. you are coughing too much to breathe and you lose consciousness from lack of oxygen.";
+	End the story saying " you are dead."
 
 A merchant is a person. he carries an axe.
 A merchant is here. "A merchant stands by a cart full of axes."
 
 Instead of examining merchant:
-	say "Perhaps if you asked nicely, he would give you an axe"
+	Say "Perhaps if you asked nicely, he would give you an axe"
 
 b1ing is an action applying to nothing. understand "Ask merchant for axe" as b1ing.
 after b1ing:
-	say "Here, have an axe, on me! just promise to go chop down some trees for me, OK?";
-	move the axe to the player.
+	Say "Here, have an axe, on me! just promise to go chop down some trees for me, OK?";
+	Move the axe to the player.
 
 
 Chapter 2 - The Cave       
 
-after entering The Cave for the first time:
-  increment the score.
+After entering The Cave for the first time:
+	Increment the score.
 
 The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
 
-a pickle is here.
-a helmet is here.
-a statue is here.
+A pickle is here.
+A helmet is here.
+A statue is here.
 
-A vagabond is in The Cave. "you see a haggard old vagabond. no one would miss him."
+A vagabond is in The Cave. "You see a haggard old vagabond. no one would miss him."
 
-after examining vagabond:
-	say "you should totally chop him up with an axe."
+After examining vagabond:
+	Say "you should totally chop him up with an axe."
 
 fooing is an action applying to nothing. understand "exit Cave"  as fooing.
 
-after fooing for the first time:
-  say "you walk through the cave entrance, only to find yourself back inside the cave, where you started";
-  increment the score.
+After fooing for the first time:
+	Say "you walk through the cave entrance, only to find yourself back inside the cave, where you started";
+	Increment the score.
 
-after fooing:
-	now the player is in Canopy.
+After fooing:
+	Now the player is in Canopy.
 
 a1ing is an action applying to nothing. understand "Put Edelweiss In Fire" as a1ing.
 
-after a1ing:
-  say "You put the Edelweiss flower in the fire. It burns up in you hand. You withdraw your hand. You feel a strange sensation; from the ashes on the palm of your hand, an Edelweiss flower begins to grow. The flower regenerates.";
-  increment the score.
+After a1ing:
+	Say "You put the Edelweiss flower in the fire. It burns up in you hand. You withdraw your hand. You feel a strange sensation; from the ashes on the palm of your hand, an Edelweiss flower begins to grow. The flower regenerates.";
+	Increment the score.
 
-a2ing is an action applying to nothing. understand "Attach Helmet To Statue" as a2ing.
+a2ing is an action applying to nothing. Understand "Attach Helmet To Statue" as a2ing.
 
-after a2ing:
-  say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then it gets wierd. Take another look around";
-  now a knight is in the cave;
-  now the helmet is nowhere;
-  now the statue is nowhere;
-  increment the score.
+After a2ing:
+	Say "You lift the helmet from the ground. You stand up, helmet in hand, and raise your arms above the shoulder level of the statue. You lower the helmet on to the statue. You stand back, to admire your work. Then it gets wierd. Take another look around";
+	Now a knight is in the cave;
+	Now the helmet is nowhere;
+	Now the statue is nowhere;
+	Increment the score.
 
 The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is east of The Cave. The Cave Entrance is west of Canopy. 
 
 Understand "Light Fire" as berning. berning is an action applying to nothing
 
-After berning in Cave:
-  say "You light a fire. The cave is illuminated. you see an exit to the north. You hear a strange sound! is something coming? you had better wait twice";
-  increment the score.
+After berning:
+	Say "You light a fire. The cave is illuminated. you see an exit to the north. You hear a strange sound! Is something coming? You had better wait a bit and try to figure out what it is.";
+	Increment the score.
 
 a4ing is an action applying to nothing. understand "Show prism to pickle" as a4ing.
 
-after a4ing:
-  say "The pickle screams in horror, terrified by the mass of colors visible through the prism. [line break] you shake your head. man you are fucking lunching";
-  increment the score.
+After a4ing:
+	Say "The pickle screams in horror, terrified by the mass of colors visible through the prism. [line break] You shake your head. Man, you are fucking lunching";
+	Increment the score.
 
-After waiting for the first time:
-  increment the score.
+After waiting in the cave for the first time:
+	Say "It sounds like someone is dropping a lot of heavy things, but you should wait a bit longer to be sure.";
 
-After waiting for the second time:
-  say "Turns out that noise was just part of the cave collapsing. there is no telling how long the structure will hold."
+After waiting in the cave for the second time:
+	Say "Turns out that noise was just part of the cave collapsing. there is no telling how long the structure will hold.";
+	Increment the score.
 
 Before going west when the player is in the cave:
-     say "As you hurry to the exit on the west you fall through a hole on the ground.";
-     say "[Italic type] You feel yourself plumetting downwards at highspeeds, you can't make out your surroundings and accept that your death is fast approaching...";
-     move player to Unknown Location.
-     
+	 Say "As you hurry to the exit on the west you fall through a hole on the ground.";
+	 Say "[Italic type] You feel yourself plumetting downwards at highspeeds, you can't make out your surroundings and accept that your death is fast approaching...";
+	 Move player to Unknown Location.
+	 
 Unknown Location is a room.  "You land with a soft thump on what seems to be a beach. Looking around you find that the ocean surrounds the small plot of sand. In the middle of the small island is a palm tree with a lone coconut."
  A coconut is here. It is edible.
  After eating coconut:
-   end the story saying "Thats the last meal you have before slowly starving to death. [line break] You have died" 
+	End the story saying "Thats the last meal you have before slowly starving to death. [line break] You have died" 
 
 
-before going north for the first time:
-  increment the score.
+After going north for the first time:
+	Increment the score.
 
 Chapter 3 - The Village
 
 The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore. You see a big field to the east. To the south is a cave."
 
- A Knight is in The Village.
+A Knight is in The Village.
 
 After examining Knight:
-	say "if he is a knight, who is his king?"
+	Say "If he is a knight, who is his king?"
 
 a5ing is an action applying to nothing. Understand "say xyzzy to Knight" as a5ing.
 
 After a5ing:
-  say "The knight replies: BACK THE FUCK UP BEFORE YOU GET SMACKED THE FUCK UP!";
-  increment the score.
+	Say "The knight replies: BACK THE FUCK UP BEFORE YOU GET SMACKED THE FUCK UP!";
+	Increment the score.
 
  
-a syringe is here. "there is a needle in the gutter" 
+A syringe is here. "There is a needle in the gutter" 
 
 After examining syringe:
-  say "a small syringe with an orange piece of plastic. no doubt it was intended for diabetics. but the tip is totally dull. it looks more like a hole punch. it doesn't look like this thing was in the possession of a diabetic."
+	Say "A small syringe with an orange piece of plastic. No doubt it was intended for diabetics. But the tip is totally dull. It looks more like a hole punch. It doesn't look like this thing was in the possession of a diabetic."
 
-a jail is here. "A large brick building looms over the side streets. it is a jail." 
+A jail is here. "A large brick building looms over the side streets. It is a jail." 
 
-after examining jail:
-  say "what do you call a big house full of <insert ethnicity here>? ... you chuckle"
+After examining jail:
+	Say "What do you call a big house full of <insert ethnicity here>? ... you chuckle"
 
 a3ing is an action applying to nothing. understand "Ponder The Meaning of Life" as a3ing.
 
 after a3ing:
-  say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
-  increment the score.
+	Say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
+	Increment the score.
 
-Before going east for the first time:
-  increment the score.  
+After going east for the first time:
+	Increment the score.  
 
 Chapter 4 - Prison Lawn
 
 Prison Lawn is a room. Prison Lawn is east of The Dungeon. Prison Lawn is east of The Village. "The only patch of green grass in all of town is on the prison lawn. you see a dungeon to the north and a village to the west. surely the dungeon is a great source of fertilizer. No wonder the grass is so green. "
 
-A duck is here. It is edible. "A duck is here." The description is "Upon looking at this duck, you become very hungry. hungry enough to eat it alive."
+A duck is here. It is edible. "A duck is here." The description is "Upon looking at this duck, you become very hungry. Hungry enough to eat it alive."
 
 After taking duck for the first time:
-  increment the score.
+	Increment the score.
 
 After eating duck:
-  say "you pick up the duck from behind and hold it firmly. It has no idea you are about to destroy it. You clamp your teeth around the neck of the duck, and bite down hard. the duck immediately begins to kick and struggle. It quacks in distress. it's vertebrae crack under the force of your jaw. The duck quacks. how quaint. You finally bite through the vertebrae and then rip the duck's head off, and spit it on the ground. you hold the duck up above your mouth and squeeze it. It's guts pour out through it's neck. A tasty meal.";
-  increment the score.
+	Say "You pick up the duck from behind and hold it firmly. It has no idea you are about to destroy it. You clamp your teeth around the neck of the duck, and bite down hard. The duck immediately begins to kick and struggle. It quacks in distress. it's vertebrae crack under the force of your jaw. The duck quacks. how quaint. You finally bite through the vertebrae and then rip the duck's head off, and spit it on the ground. You hold the duck up above your mouth and squeeze it. It's guts pour out through it's neck. A tasty meal.";
+	Increment the score.
 
-before going north for the first time: 
- increment the score.
+Before going north for the first time: 
+	Increment the score.
 
 Chapter 5 - The Dungeon
 
@@ -368,55 +385,54 @@ The Dungeon is a room. The  Dungeon is north of Prison Lawn. "The dungeon is jus
 Macbeth is in The Dungeon.
 
 After examining Macbeth:
-	say "what is a king doing in the dungeon?"
+	Say "what is a king doing in the dungeon?"
 	
 After examining Macbeth for the second time: 
-	say "looks like something is weighing on his conscience."
+	Say "looks like something is weighing on his conscience."
 
 j5ing is an action applying to nothing. Understand "say plugh to macbeth" as j5ing.
 
 After j5ing:
-  say "Macbeth replies: All the perfumes in arabia could not sweeten this little hand. *he cries* Oh what have i done, killing my king! boo hoo hoo";
-  increment the score.
+	Say "Macbeth replies: All the perfumes in arabia could not sweeten this little hand. *he cries* Oh what have i done, killing my king! boo hoo hoo";
+	Increment the score.
 
 A cauldron is here. "You see a big stone Cauldron."
 
 j6ing is an action applying to nothing. Understand "open cauldron" as j6ing.
 
-after j6ing:
-  say "there are a bunch of vegetables in the cauldron. looks like it could use some ginger though";
-  increment the score.
+After j6ing:
+	Say "there are a bunch of vegetables in the cauldron. looks like it could use some ginger though";
+	Increment the score.
 
 j7ing is an action applying to nothing. Understand "put ginger in cauldron" as j7ing.
 
-after j7ing:
-  say "the veggie soup is complete now. time to light the fire.";
-  increment the score.
+After j7ing:
+	Say "the veggie soup is complete now. time to light the fire.";
+	Increment the score.
 
 j1ing is an action applying to nothing. Understand "light fire" as j1ing.
 
-after j1ing:
-  say "The liquid in the cauldron begins to boil, and dark fumes spill over the edge";
-  increment the score.
+After j1ing:
+	Say "The liquid in the cauldron begins to boil, and dark fumes spill over the edge";
+	Increment the score.
   
 j2ing is an action applying to nothing. Understand "inhale fumes" as j2ing.
 
-after j2ing:
-  say "You feel light-headed, and your vision goes dim, but you remain conscious [line break]  The cauldron continues bubbling fumes [line break] Your vision clears and you find yourself in front of a dirty mirror";
-  increment the score.
+After j2ing:
+	Say "You feel light-headed, and your vision goes dim, but you remain conscious [line break]  The cauldron continues bubbling fumes [line break] Your vision clears and you find yourself in front of a dirty mirror";
+	Increment the score.
   
 j3ing is an action applying to nothing. Understand "polish mirror", "clean mirror", "wipe mirror" as j3ing.
 
-after j3ing:
-  say "The mirror is now reflective again, but there is something unusual about it";
-  increment the score.
+After j3ing:
+	Say "The mirror is now reflective again, but there is something unusual about it";
+	Increment the score.
 
-after waiting for the first time:
-  increment the score.
+After waiting for the first time:
+	Increment the score.
   
 j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 
-after j4ing:
-  say "Your vision goes black and you feel an intense falling sensation.";
-  increase the score by 1.
-
+After j4ing:
+	Say "Your vision goes black and you feel an intense falling sensation.";
+	Increase the score by 1.
