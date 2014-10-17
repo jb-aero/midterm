@@ -279,7 +279,7 @@ The Cave Entrance is a door. The Cave Entrance is scenery.  The Cave Entrance is
 
 Understand "Light Fire" as berning. berning is an action applying to nothing
 
-After berning:
+After berning in Cave:
   say "You light a fire. The cave is illuminated. you see an exit to the north. You hear a strange sound! is something coming? you had better wait twice";
   increment the score.
 
