@@ -141,7 +141,7 @@ Every turn:
     end the story saying "You awake, relieved to find yourself in your own bed. you stretch your arms and yawn. you are quite comfortable. AARGH! a giant alligator comes out from under your covers and bites your head off. What the fuck! you scream, as the gators jaws rip your head clean off your shoulders. [line break] you awake for real with a jolt. that was weird. no more benadryl before bed".
 
 Every turn:
-	if the score is 32,
+	if the score is 25,
 	end the story saying "it smells like the soup is ready. you stir the pot and give it a taste. needs meat. [line break] Macbeth approaches. That smells really good! he says. [line break] you grab the back of Macbeth's head and slam his face onto the rim of the cauldron. The hot stone sears his skin. it bubbles. Macbeth screams in pain, but foolishly grabs his face. You take advantage of this opportunity and grab his ankles. with a heave, you lift the king up and he topples over into the cauldron. You close the lid. [line break] [line break] You awake. aww shucks, you didn't get to finish the dream. you hate when that happens. you find yourself ravenously hungry and go downstairs for breakfast.".
 
 The Cabin is a room. "You stand in a wooden cabin. You see a door on the east of the cabin." 
@@ -149,7 +149,7 @@ The Cabin Door is a door.  The Cabin Door is scenery. The Cabin Door is east of 
 
 A butter knife is here. It is edible.  "A butter knife lies on the floor."  The description is "Strange! It seems to be made out of butter."
 
-After taking the knife:
+After taking the knife for the first time:
   increment the score;
   say "Your hand is now greasy. Gross!"
 
@@ -161,15 +161,15 @@ After eating the knife:
 
 A prism is here.  The description is "Pretty colors"
 
-After taking the prism:
+After taking the prism for the first time:
   increment the score.
 
 A ginger is here. it is edible. "A piece of ginger lies on the floor." The description is "That stuff comes from korea."
 
-Before opening The Door:
+Before opening The Door for the first time:
   increment the score.
 
-Before going east:
+Before going east for the first time:
   increment the score.
         
 Before going from The Cabin to The Jungle for the first time:
@@ -182,7 +182,7 @@ A tree is here.
 A edelweiss flower is here. "A ray of sunlight passing through the trees  illuminates an edelweiss flower." The description is "This flower grows in cold, dry, mountain climate. what the hell is it doing growing in a jungle? am i dreaming?"
 
 
-After taking the edelweiss:
+After taking the edelweiss for the first time:
  increment score;
   say "You firmly grasp the base of the stem and pluck the flower, leaving the roots behind. This beautiful flower will surely die."
 
@@ -237,7 +237,7 @@ after b1ing:
 
 Chapter 2 - The Cave       
 
-after entering The Cave:
+after entering The Cave for the first time:
   increment the score.
 
 The Cave is a room. The Cave is south of the Village. "It's very dark in here. Perhaps i should light a fire" 
@@ -289,7 +289,7 @@ after a4ing:
   say "The pickle screams in horror, terrified by the mass of colors visible through the prism. [line break] you shake your head. man you are fucking lunching";
   increment the score.
 
-After waiting:
+After waiting for the first time:
   increment the score.
 
 After waiting for the second time:
@@ -306,14 +306,14 @@ Unknown Location is a room.  "You land with a soft thump on what seems to be a b
    end the story saying "Thats the last meal you have before slowly starving to death. [line break] You have died" 
 
 
-before going north:
+before going north for the first time:
   increment the score.
 
 Chapter 3 - The Village
 
 The Village  is a room. The Village is west of Prison Lawn. "The village is a nasty, rundown, cesspool. The inhabitants do not look very friendly. You must be in east Baltimore. You see a big field to the east. To the south is a cave."
 
- Knight is in The Village.
+ now a Knight is in The Village.
 
 After examining Knight:
 	say "if he is a knight, who is his king?"
@@ -341,7 +341,7 @@ after a3ing:
   say "The meaning of life is to be of maximum service to God and to your fellow human beings. You can't do anything for them here, they all are either addicted to drugs or in jail.";
   increment the score.
 
-Before going east:
+Before going east for the first time:
   increment the score.  
 
 Chapter 4 - Prison Lawn
@@ -350,14 +350,14 @@ Prison Lawn is a room. Prison Lawn is east of The Dungeon. Prison Lawn is east o
 
 A duck is here. It is edible. "A duck is here." The description is "Upon looking at this duck, you become very hungry. hungry enough to eat it alive."
 
-After taking duck:
+After taking duck for the first time:
   increment the score.
 
 After eating duck:
   say "you pick up the duck from behind and hold it firmly. It has no idea you are about to destroy it. You clamp your teeth around the neck of the duck, and bite down hard. the duck immediately begins to kick and struggle. It quacks in distress. it's vertebrae crack under the force of your jaw. The duck quacks. how quaint. You finally bite through the vertebrae and then rip the duck's head off, and spit it on the ground. you hold the duck up above your mouth and squeeze it. It's guts pour out through it's neck. A tasty meal.";
   increment the score.
 
-before going north: 
+before going north for the first time: 
  increment the score.
 
 Chapter 5 - The Dungeon
@@ -402,14 +402,8 @@ after j1ing:
 j2ing is an action applying to nothing. Understand "inhale fumes" as j2ing.
 
 after j2ing:
-  say "You feel light-headed, and your vision goes dim, but you remain conscious";
+  say "You feel light-headed, and your vision goes dim, but you remain conscious [line break]  The cauldron continues bubbling fumes [line break] Your vision clears and you find yourself in front of a dirty mirror";
   increment the score.
-
-after j2ing:
-  say "The cauldron continues bubbling fumes".
-
-after  j2ing:
-  say "Your vision clears and you find yourself in front of a dirty mirror".
   
 j3ing is an action applying to nothing. Understand "polish mirror", "clean mirror", "wipe mirror" as j3ing.
 
@@ -417,7 +411,7 @@ after j3ing:
   say "The mirror is now reflective again, but there is something unusual about it";
   increment the score.
 
-after waiting:
+after waiting for the first time:
   increment the score.
   
 j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
@@ -425,4 +419,3 @@ j4ing is an action applying to nothing. Understand "Examine Mirror" as j4ing.
 after j4ing:
   say "Your vision goes black and you feel an intense falling sensation.";
   increase the score by 1.
-
